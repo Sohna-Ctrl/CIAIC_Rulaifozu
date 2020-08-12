@@ -13,9 +13,11 @@ import xlwt  # 导入表格写入
 import xlrd  # 导入表格读取
 # import sys  # 导入系统
 from xlutils.copy import copy  # 导入追加表格
+from database import *
 
 # 网页网址
 url = 'https://www.duitang.com/album/?id=98243426&spm=2014.12553688.202.0'
+
 
 def request_headers(logger):
     """
@@ -124,6 +126,8 @@ def get_photo(img_urls, dir_name, headers, save_path, logger):
     """
     logger.debug("开始保存图片！")
     try:
+        # 图片信息列表
+        img_info = []
         # 写入表格的行
         row = 3
         # 图片个数
@@ -149,6 +153,10 @@ def get_photo(img_urls, dir_name, headers, save_path, logger):
             response = requests.get(img_url, headers=headers)
             # 存储图片信息
             save_data(row, column, dir_name, file_name, img_url, img_num, img_count, save_path, logger)
+
+            # 缓存图片信息
+            img_info.append([dir_name, file_name, img_url])
+            logger.info("缓存的图片信息列表：%s" % [dir_name, file_name, img_url])
             # 文件写入
             with open(dir_name + '/' + file_name, 'wb') as file:
                 file.write(response.content)
@@ -157,6 +165,8 @@ def get_photo(img_urls, dir_name, headers, save_path, logger):
             pass
             row += 1
             logger.debug("保存图片成功！")
+        logger.info("缓存的所有图片信息列表：%s" % img_info)
+        return img_info
     except:
         logger.error("保存图片错误！")
     logger.debug("保存图片执行完毕！")
@@ -339,7 +349,19 @@ if __name__ == "__main__":
     # 创建保存图片信息的文件
     save_data_init(save_path, logger)
     # 保存图片和图片信息
-    get_photo(img_urls, dir_name, headers, save_path, logger)
+    img_info = get_photo(img_urls, dir_name, headers, save_path, logger)
+    # 表格操作数据库连接
+    var_connection = fun_connect_method(logger)
+    # 创建数据库中的表格
+    fun_create_method(var_connection, logger)
+    # 将缓存的图片信息插入到数据库中的表格
+    for img_info_element in img_info:
+        fun_insert_method(var_connection, img_info_element, logger)
+    pass
+    # 从数据库中的表格中查询第X张图片信息
+    fun_search_method(var_connection, 1, logger)
+    # 表格操作数据库连接关闭
+    fun_connect_close_method(var_connection, logger)
     pass
 
 
