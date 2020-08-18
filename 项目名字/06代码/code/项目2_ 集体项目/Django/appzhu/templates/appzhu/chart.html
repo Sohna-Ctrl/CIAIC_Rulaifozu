@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="zh_CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
+  <title>Title</title>
+  <script src="https://cdn.bootcss.com/echarts/4.2.1-rc1/echarts.min.js"></script>
+  <script src="rainbowl.js"></script>
+  <script type="text/javascript" src="{% static 'appzhu/js/js03.js' %}"></script>
+  <link href="{% static 'appzhu/css/chart.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+<a id="download" href=""></a>
+
+<div class="button1">
+
+<button onclick="method04()">返回个人主页</button><br>
+
+</div>
+
+
+
+<div id="main" style="width: 6000px;height:4000px;"></div>
+<script>
+  const a = window.document.querySelector('#download')
+  a.addEventListener('click',()=>{
+    const content = document.querySelector('svg').outerHTML
+    const blob= new Blob([content], {type: 'xml/svg'})
+    a.href = URL.createObjectURL(blob)
+    a.download = 'test.svg'
+  })
+  var myChart = echarts.init(document.getElementById('main'),'rainbowl');
+
+  // 指定图表的配置项和数据
+  
+
+
+
+
+
+var legenddata = [
+{name:'GUERLAIN',Confirmed:11},
+{name:'DIOR',Confirmed:9},
+{name:'ESTEELAUDER',Confirmed:6},
+{name:'GIVENCHY',Confirmed:6},
+{name:'MAKEUPFOREVER',Confirmed:6},
+{name:'LANCOME',Confirmed:5},
+{name:'BENEFIT',Confirmed:5},
+{name:'Fresh',Confirmed:5},
+{name:'LOEWE',Confirmed:4},
+{name:'SEPHORACOLLECTION',Confirmed:4},
+{name:'SK-II',Confirmed:3},
+{name:'GUCCI',Confirmed:3},
+{name:'BOBBIBROWN',Confirmed:3},
+{name:'FOREO',Confirmed:3},
+{name:'MIUMIU',Confirmed:2},
+{name:'SHUUEMURA',Confirmed:2},
+{name:'CAUDALIE',Confirmed:1},
+{name:'WEI',Confirmed:1},
+{name:'BURBERRY',Confirmed:1},
+{name:'SHISEIDO',Confirmed:1}
+
+],
+ option = {
+ dataset: {
+    source: [
+['Country','Confirmed'],
+['GUERLAIN',11],
+['DIOR',9],
+['ESTEELAUDER',6],
+['GIVENCHY',6],
+['MAKEUPFOREVER',6],
+['LANCOME',5],
+['BENEFIT',5],
+['Fresh',5],
+['LOEWE',4],
+['SEPHORACOLLECTION',4],
+['SK-II',3],
+['GUCCI',3],
+['BOBBIBROWN',3],
+['FOREO',3],
+['MIUMIU',2],
+['SHUUEMURA',2],
+['CAUDALIE',1],
+['WEI',1],
+['BURBERRY',1]
+
+    ]},
+    toolbox: {
+        show: true,//false则不显示工具栏
+        feature: {
+            saveAsImage: {show: true,type:'jpeg'}
+        }
+    },
+    title: {
+        text: '品牌分布图',
+        <!--subtext: '\n使用丝芙兰官网数据\n\n——by ZhuBing',-->
+        x: '60%',
+        y: '350',
+        textStyle:
+        {fontSize:100,
+        fontWeight:'bold',
+       
+        color:'#000'
+        },
+        subtextStyle:
+        {
+           
+			fontSize:50
+        }
+    },
+     legend: {
+        x: '60%',//水平位置，【left\center\right\数字】
+        y: '550',//垂直位置，【top\center\bottom\数字】
+        align:'left',//字在图例的左边或右边【left/right】
+        orient:'vertical',//图例方向【horizontal/vertical】
+        icon: "circle",   //图例形状【circle\rect\roundRect\triangle\diamond\pin\arrow\none】
+        textStyle://图例文字
+        {
+            
+            color:'#000',
+            fontSize:50
+            
+        },
+        data: ['GUERLAIN','DIOR','ESTEELAUDER','GIVENCHY','MAKEUPFOREVER','LANCOME','BENEFIT','Fresh','LOEWE','SEPHORACOLLECTION','','SK-II','GUCCI','BOBBIBROWN','FOREO','MIUMIU','SHUUEMURA','CAUDALIE','WEI','BURBERRY'],
+        formatter: function(params)  {
+            console.log('图例参数',params) 
+            for (var i=0;i<legenddata.length;i++){
+                  if (legenddata[i].name== params){
+                      return params+"\t数目:"+legenddata[i].Confirmed;
+                     }
+              }
+        } 
+  
+     },
+ 
+	calculable: true,
+    series: [
+        {
+            name: '半径模式',
+            type: 'pie',
+            clockWise: false ,
+            radius: [100, 2000],
+            center: ['40%', '55%'],
+            roseType: 'area',
+			encode: {
+            itemName: 'Country',
+            value: 'Confirmed'
+					},
+            itemStyle: {
+                normal: {
+				color: function(params) {
+                       var colorList = [
+            "#a71a4f","#bc1540","#c71b1b","#d93824","#ce4018","#d15122","#e7741b","#e58b3d","#e59524","#dc9e31","#da9c2d","#d2b130","#bbd337","#8cc13f","#67b52d","#53b440","#48af54","#479c7f","#48a698","#57868c"
+                        ];
+                        return colorList[params.dataIndex]
+                    },
+                    label: {
+                        position: 'inside',
+						textStyle:
+                        {   
+                            fontWeight:'bold',
+                          
+                            color:'#FAFAFA',
+							fontSize:50
+                        },
+                        //formatter:'{b} \n{@Confirmed}例 \n死亡{@Dead}',//注意这里大小写敏感哦
+						formatter : function(params) 
+						{  console.log('参数列表',params) 
+                            if(params.data[1]>2)
+							{return params.data[0]+'\n'+params.data[1]}
+							else{return "";}
+                                    },
+
+                    },
+                },
+    },
+
+        },
+        {
+            name:'透明圆圈',
+            type:'pie',
+            radius: [10,27],
+            center: ['40%', '80%'],
+            itemStyle: {
+                    color: 'rgba(250, 250, 250, 0.3)',
+    },
+            data:[
+                {value:10,name:''}
+            ]
+        },
+        {
+            name:'透明圆圈',
+            type:'pie',
+            radius: [10,35],
+            center: ['40%', '80%'],
+            itemStyle: {
+                    color: 'rgba(250, 250, 250, 0.3)',
+    },
+            data:[
+                {value:10,name:''}
+            ]
+        }
+            ] 
+    
+};
+
+
+
+  // 使用刚指定的配置项和数据显示图表。
+  myChart.setOption(option);
+  setTimeout(function (){
+	    window.onresize = function () {
+	    	myChart.resize();
+	    }
+	},100)
+</script>
+
+</body>
+</html>

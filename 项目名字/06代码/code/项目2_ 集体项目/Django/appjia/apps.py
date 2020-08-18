@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class AppjiaConfig(AppConfig):
+class appjiaConfig(AppConfig):
     name = 'appjia'

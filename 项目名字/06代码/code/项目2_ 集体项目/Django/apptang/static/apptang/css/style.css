@@ -1,0 +1,205 @@
+body
+{
+  background: #262626;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/*------------------------------菜单栏按钮------------------------------*/
+
+/*szq侧边栏*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: fixed;
+    left: -500px;
+    width: 250px;
+    height: 100%;
+    z-index: 1111;
+    background: #262626;
+    transition: all .5s;
+}
+
+.sidebar header{
+    font-family: 幼圆 ;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    background: #063146;
+    user-select: none;
+}
+
+.sidebar ul li a{
+    display: block ;
+    height: 100%;
+    width: 100%;
+    line-height: 45px;
+    font-family: 幼圆;
+    font-size: 20px;
+    color:white;
+    padding-left:0px;
+    box-sizing: border-box;
+    border-top:1px solid rgba(255,255,255,.1);
+    border-bottom: 0px solid black;
+    transition:.4s
+}
+
+.sidebar ul li:hover a{
+    padding-left: 50px;
+}
+
+.sidebar ul a i{
+    margin-right: 16px;
+}
+
+#check{
+    display: none;
+}
+
+label #btn,label #cancel{
+    position:absolute;
+    cursor: pointer;
+    background:#042331;
+    border-radius: 3px;
+}
+
+
+label #cancel{
+    position:absolute;
+    cursor: pointer;
+    background:#042331;
+    border-radius: 5px;
+}
+
+label #btn{
+    z-index: 1200;
+    left: 100px;
+    top: 10px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+
+label #cancel{
+    z-index: 1200;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #0a5276;
+    padding: 4px 9px;
+    transition: all .5s;
+}
+
+#check:checked ~.sidebar{
+    left: 0;
+}
+
+#check:checked ~label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~label #cancel {
+    left: 195px;
+}
+
+
+/*---------------------------------swiper-----------------------------*/
+
+.SS .swiper-container
+{
+  width: 120%;
+  padding-top:200px;
+  padding-bottom: 100px;
+}
+
+/*设置滑动窗口大小*/
+.SS .swiper-slide
+{
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+  background: #fff;
+}
+
+
+/*封面图片下字体位置设置*/
+.SS .swiper-slide .imgBX
+{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+/*封面图片大小设置，填充窗口*/
+.SS .swiper-slide .imgBX img
+{
+  width: 100%;
+}
+
+/*字体上下位置设置*/
+.SS .swiper-slide .details
+{
+  box-sizing: border-box;
+  font-size: 15px;
+  padding: 0px;
+}
+
+/*字体大小设置*/
+.SS .swiper-slide .details h3
+{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+    /*设置副标题位置*/
+  line-height: 20px;
+    color: black;
+}
+.SS .swiper-slide .details h3 span
+{
+  font-size: 20px;
+  padding: 100px;
+  color: #880b0e;
+}
+
+
+.Inf h1{
+  font-size: 40px;
+  color: white;
+  font-family: 方正舒体;
+}
+
+.Inf td{
+  color: #7da8cc;
+}
+
+.Inf a
+{
+  color: #7da8cc;
+}
+
+.Det .title1{
+  font-size: 30px;
+  color: white;
+  font-family: 方正舒体;
+}
+
+.Det .l{
+  font-size: 30px;
+  color: #7da8cc;
+  font-family: 方正舒体;
+}

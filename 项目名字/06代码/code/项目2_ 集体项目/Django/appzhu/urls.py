@@ -1,7 +1,7 @@
-"""Django1 URL Configuration
+"""djiango005 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/2.1/topics/http/urls/
+    https://docs.djangoproject.com/en/2.0/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -14,12 +14,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-# from django.urls import path
-from django.urls import path, include
+from django.urls import path,include
 from appzhu import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('login/', views.fun_method01),
-    # path('userlogin/', views.fun_method02),
+    path('index/', views.fun_mehthod01),
+    path('pachong/', views.fun_mehthod02),
+    path('chart/', views.fun_mehthod03),
+    path('chart2/', views.fun_mehthod04),
 ]

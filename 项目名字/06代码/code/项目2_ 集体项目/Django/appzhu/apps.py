@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class AppzhuConfig(AppConfig):
+class appzhuConfig(AppConfig):
     name = 'appzhu'

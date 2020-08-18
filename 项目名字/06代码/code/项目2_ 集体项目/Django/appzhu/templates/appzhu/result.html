@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<h3 align="center">最畅销化妆品排名</h3>
+<table width="60%" align="center" border="1px" cellpadding="0" cellspacing="0">
+    <tr align="center">
+        <td>排名</td><td>品排名</td><td>名称</td><td>价格</td><td>商品链接</td><td>图片链接</td>
+    </tr>
+
+    {% for element in padata %}
+        <tr align="center">
+            <td>{{ element.0 }}</td><td>{{ element.1 }}</td><td>{{ element.2 }}</td><td>{{ element.3 }}</td><td>{{ element.4 }}</td><td>{{ element.5 }}</td>
+    {% endfor %}
+    <tr >
+        <td colspan="4" align="right">
+            <a href="#">生成报表</a>&nbsp;
+            &nbsp;
+            <a href="#">显示图表</a>
+
+
+        </td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  {% load static %}
+  <!-- Link Swiper's CSS -->
+  <link href="{% static 'apptang/css/swiper-bundle.min.css' %}" rel="stylesheet" type="text/css">
+  <link href="{% static 'apptang/css/style.css' %}" rel="stylesheet" type="text/css">
+
+    {#-----------------------------菜单按钮栏-----------------------------#}
+  <link href="{% static 'apptang/css/style.css' %}" rel="stylesheet" type="text/css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+
+</head>
+
+<body>
+
+{#-----------------------------------------菜单栏按钮-------------------------#}
+{#    侧边导航栏#}
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+        <header><i class="fas fa-align-center"></i>Guide</header>
+        <ul>
+            <li><a href="#Slide"><i class="fas fa-qrcode"></i>Slide</a></li>
+            <li><a href="#Information"><i class="fas fa-hourglass"></i>Information</a></li>
+            <li><a href="#More Details"><i class="fas fa-anchor"></i>More Details</a></li>
+            <li><a href="http://localhost:8000/appcao/personal/"><i class="fas fa-link"></i>To zicao</a></li>
+            <li><a href="http://localhost:8000/appshao/index/"><i class="fas fa-link"></i>To zhqshao</a></li>
+            <li><a href="http://localhost:8000/appjia/pachong/"><i class="fas fa-link"></i>To xinrongjia</a></li>
+            <li><a href="http://localhost:8000/appzhu/index/"><i class="fas fa-link"></i>To bingzhu</a></li>
+            <li><a href="http://localhost:8000/app/index/"><i class="fas fa-link"></i>Homepage</a></li>
+
+        </ul>
+    </div>
+
+
+
+ <!-- Swiper -->
+<section class="SS" id="Slide">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image01.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Our Planet | One Planet <br><span>FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image02.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Our Planet | Frozen Worlds <br><span> FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image03.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Our Planet | Jungles   <br><span>FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image04.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Our Planet | Coastal Seas  <br><span> FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image05.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Our Planet | From Deserts to Grasslands  <br><span>FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image06.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Our Planet | High Seas  <br><span>FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image07.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Our Planet | Fresh Water <br><span> FULL EPISODE | Netflix </span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image08.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Our Planet | Forests  <br><span> FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image09.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Chasing Coral  <br><span>FULL FEATURE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image10.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> 13TH  <br><span> FULL FEATURE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image11.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Knock Down The House   <br><span> FULL FEATURE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image12.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Period. End of Sentence.  <br><span>FULL FEATURE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image13.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> The White Helmets  <br><span>  FULL FEATURE|Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image14.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Zion  <br><span>FULL FEATURE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image15.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Explained | Music <br><span>FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image16.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Explained | World's Water Crisis  <br><span> FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image17.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Explained | Why Women Are Paid Less  <br><span> FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image18.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Explained | The Stock Market  <br><span> FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image19.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Explained | Cricket  <br><span>FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image20.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Explained  <br><span>FULL EPISODE | Netflix </span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image21.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Explained | Racial Wealth Gap  <br><span>FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image22.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3>  Abstract: The Art of Design | Christoph Niemann: Illustration<br><span>FULL EPISODE | Netflix </span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image23.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Abstract: The Art of Design | Tinker Hatfield: Footwear Design<br><span> FULL EPISODE | Netflix </span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image24.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Abstract: The Art of Design | Es Devlin: Stage Design <br><span>FULL EPISODE | Netflix </span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image25.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Abstract: The Art of Design | Bjarke Ingels: Architecture<br><span> FULL EPISODE | Netflix </span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image26.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Abstract: The Art of Design | Ralph Gilles: Automotive Design <br><span>FULL EPISODE | Netflix </span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image27.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Abstract: The Art of Design | Paula Scher: Graphic Design <br><span>FULL EPISODE | Netflix </span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image28.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Abstract: The Art of Design | Platon: Photography <br><span> FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image29.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Abstract: The Art of Design | Ilse Crawford: Interior Design<br><span> FULL EPISODE | Netflix </span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image30.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Babies | Love <br><span> FULL EPISODE | Netflix</span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image31.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Babies | Crawling <br><span>FULL EPISODE | Netflix </span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image32.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Babies | First Words <br><span>FULL EPISODE | Netflix </span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image33.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Babies | Sleep <br><span>FULL EPISODE | Netflix </span></h3>
+          </div>
+      </div>
+
+      <div class="swiper-slide" >
+          <div class="imgBX">
+              <image src="{% static 'apptang/image/image34.jpg' %}"></image>
+          </div>
+          <div class="details">
+              <h3> Babies | First Steps <br><span>FULL EPISODE | Netflix </span></h3>
+          </div>
+      </div>
+
+
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script type="text/javascript" src="{% static 'apptang/js/swiper-bundle.min.js' %}"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 80,
+        stretch: 0,
+        depth: 500,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</section>
+
+
+<!--说明栏目-->
+
+<section class="Inf" id="Information">
+            <h1 align="center" class=" font-size-40 font-type1">Table：Netflix Documentary Information</h1>
+            <div class="table1">
+                <table width="100%" align="center" border="1px" cellpadding="0" cellspacing="0" >
+                    <tr align="center" style="background-color: #34495e " >
+                    <th>documentary name</th><th>documentary link</th><th>description</th><th>keywords</th>
+                    </tr>
+                    {% for element in padata %}
+                    <tr align="center" style="background-color: #262626">
+                        <td>{{ element.0}}</td><td><a href={{ element.1 }}>{{ element.1}}</a></td><td>{{ element.3}}</td><td>{{ element.4}}</td>
+                    </tr>
+                    {% endfor %}
+                    <tr>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+
+
+</section>
+
+<section class="Det" id="More Details">
+    <p class="title1" color="white">For many years, Netflix has allowed teachers to screen documentaries in their classrooms: <a class="l" href=" https://help.netflix.com/en/node/57695">vist classrooms</a>
+
+However, this isn’t possible with schools closed. So at their request, we have made a selection of our documentary features and series available on our YouTube channel.
+
+If you are a parent or teacher, please check the ratings so that you can make informed choices for your students and children.
+
+For more information and to download accompanying educational resources please visit the Netflix Company Blog:
+         <a class="l" href="https://media.netflix.com/en/company-..."  >visit Blog</a></p>
+</section>
+
+</section>
+
+</body>
+
+</html>

@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
+.font-size-27{
+    font-size: 27px;
+}
+.font-size-40{
+    font-size: 40px;
+}
+.font-size-80{
+    font-size: 80px;
+}
+.font-type1{
+    font-family: 华文行楷;
+}
+.font-type2{
+    font-family: 华文隶书;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.audio{
+    padding-left: 500px;
+}
+
+.sidebar{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #042331;
+    transition: all .5s;
+}
+
+.sidebar header{
+    font-family: 华文行楷;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063146;
+    user-select: none;
+}
+
+.sidebar ul li a{
+    display: block ;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-family: 华文隶书;
+    font-size: 30px;
+    color:white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top:1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition:.4s
+}
+
+.sidebar ul li:hover a{
+    padding-left: 50px;
+}
+
+.sidebar ul a i{
+    margin-right: 16px;
+}
+
+#check{
+    display: none;
+}
+
+label #btn,label #cancel{
+    position:absolute;
+    cursor: pointer;
+    background:#042331;
+    border-radius: 3px;
+}
+
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #0a5276;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+
+#check:checked ~.sidebar{
+    left: 0;
+}
+
+#check:checked ~label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~label #cancel{
+ left: 195px;
+}
+section{
+    background: url(pic.jpg) no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+<!---->
+.total{
+    background: white;
+    width: 100%;
+    float: left;
+}
+
+#front img{
+    float: left;
+    width:240px;
+	height:120px;
+    margin-left: 250px;
+}
+.behind {
+    float: right;
+}
+
+.behind li{
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
+    float: left;
+    font-family: 方正舒体;
+}
+/*test*/
+.site-banner .yoyo{
+    padding-left: 300px;
+    padding-top: 100px;
+}
+
+.site-banner .banner-area .author{
+    padding-left: 150px;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    padding-top: 400px;
+    transform: translate(-50%, -50%);
+}
+.site-banner .banner-area .author .author-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    background: url(mypic.png) no-repeat;
+    background-size: 200%;
+    background-position: 60% 60%;
+}
+.pro{
+    padding-left: 300px;
+    padding-top: 50px;
+}
+.pro .wiwi{
+    width: 800px;
+    padding-left: 500px;
+    padding-top: 50px;
+}
+
+/*照片滚动*/
+		.out{
+			overflow: hidden;
+            padding-left: 400px;
+            padding-top: 150px;
+		}
+		#banner {
+			width: 1000px;
+			height: 300px;
+			padding: 0;
+			position: absolute;
+			overflow: hidden;
+		}
+		#banner ul {
+			list-style: none;
+			margin:0;
+			padding: 0;
+			position: absolute;
+			width: 1000px;
+		}
+		#banner ul li {
+			float: left;
+			margin: 0;
+			padding: 0;
+		}
+		#banner ul li img {
+			width: 250px;
+			height: 300px;
+		}
+/*照片滚动*/
+.aboutme{
+    padding-left: 300px;
+    padding-top: 50px;
+}
+.aboutme .row0{
+    padding-top: 50px;
+}
+
+
+.aboutme .row0 .col-sm-5 img{
+    float: left;
+    width:700px;
+	height:600px;
+    padding-left: 50px;
+}
+.aboutme .row0 .col-sm-6{
+    float: left;
+    width:900px;
+	height:600px;
+    padding-left:20px;
+}
+section.result01{
+    background: url(pic.jpg) no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-left: 300px;
+}
+
+.title1{
+    padding-left: 600px;
+    font-size: 40px;
+    font-family: 隶书;
+ }
+
+.table1{
+    font-size: 30px;
+    color: darkmagenta;
+    font-family: 方正舒体;
+    padding-top:20px ;
+    padding-left: 10px;
+}
+.result02{
+    padding-left: 300px;
+    padding-top: 100px;
+}
+.title2{
+    padding-left: 700px;
+    font-size: 40px;
+    font-family: 隶书;
+ }
+
+.result03{
+    padding-left: 300px;
+    padding-top: 200px;
+}
+.title3{
+    padding-left: 700px;
+    font-size: 40px;
+    font-family: 隶书;
+ }
+.result03 .bar{
+    padding-left: 200px;
+}

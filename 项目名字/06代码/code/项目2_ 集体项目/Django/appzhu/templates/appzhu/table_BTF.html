@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>最畅销化妆品.</title>
+	<link href="{% static 'appzhu/css/table_BTF.css' %}" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="{% static 'appzhu/js/js02.js' %}"></script>
+
+</head>
+
+<body>
+
+<div class="button1">
+
+<button onclick="method03()">返回个人主页</button><br>
+
+</div>
+
+
+<div id="container">
+
+	<table class="zebra">
+    <caption>最畅销化妆品排名</caption>
+        <tbody>
+        	<tr>
+            <td>排名</td><td>品牌名</td><td>名称</td><td>价格</td><td>商品链接</td>
+            </tr>
+			{% for element in padata %}
+				<tr>
+				<td>{{ element.0 }}</td><td>{{ element.1 }}</td><td>{{ element.2 }}</td><td>{{ element.3 }}</td><td><a href={{element.4}}>{{element.4}}</a></td>
+			{% endfor %}
+            </tr>
+
+        </tbody>
+	</table>
+</div>
+
+</body>
+</html>

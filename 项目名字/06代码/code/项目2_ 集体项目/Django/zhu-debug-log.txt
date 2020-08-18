@@ -1,0 +1,335 @@
+08/18/2020 14:24:40 PM - WARNING - Not Found: /
+08/18/2020 14:26:02 PM - WARNING - Not Found: /app/
+08/18/2020 14:26:33 PM - WARNING - Not Found: /appshao/
+08/18/2020 14:27:13 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:27:50 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:28:52 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:29:23 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:29:25 PM - DEBUG - 开始执行网页请求伪装！
+08/18/2020 14:29:25 PM - DEBUG - 网页请求伪装已完成！
+08/18/2020 14:29:25 PM - DEBUG - 开始请求网页！
+08/18/2020 14:29:25 PM - DEBUG - Starting new HTTPS connection (1): www.duitang.com:443
+08/18/2020 14:29:25 PM - DEBUG - https://www.duitang.com:443 "GET /album/?id=98243426&spm=2014.12553688.202.0 HTTP/1.1" 200 None
+08/18/2020 14:29:25 PM - INFO - 网页请求已成功！
+08/18/2020 14:29:25 PM - DEBUG - 开始解析网页！
+08/18/2020 14:29:25 PM - INFO - 网页解析已完成！
+08/18/2020 14:29:25 PM - DEBUG - 开始保存图片！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20190320072741_jeitn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201712/14/20171214170310_nmd8Y.thumb.400_0.jpeg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20171214170310_nmd8Y.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201712/14/20171214170310_nmd8Y.thumb.400_0.jpeg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201804/15/20180415175933_mLntF.thumb.400_0.jpeg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180415175933_mLntF.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201804/15/20180415175933_mLntF.thumb.400_0.jpeg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201703/11/20170311004242_Qk85h.thumb.400_0.jpeg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20170311004242_Qk85h.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201703/11/20170311004242_Qk85h.thumb.400_0.jpeg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201805/02/20180502113133_Ykkxf.thumb.400_0.jpeg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180502113133_Ykkxf.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/02/20180502113133_Ykkxf.thumb.400_0.jpeg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201803/13/20180313113359_4vZGB.thumb.400_0.jpeg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180313113359_4vZGB.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201803/13/20180313113359_4vZGB.thumb.400_0.jpeg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201606/26/20160626001058_ufahi.thumb.400_0.jpeg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20160626001058_ufahi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201606/26/20160626001058_ufahi.thumb.400_0.jpeg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201801/09/20180109234729_FncRi.thumb.400_0.jpeg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180109234729_FncRi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234729_FncRi.thumb.400_0.jpeg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201805/28/20180528234313_VfPCu.thumb.400_0.jpeg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180528234313_VfPCu.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/28/20180528234313_VfPCu.thumb.400_0.jpeg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201801/09/20180109234526_WSksK.thumb.400_0.jpeg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180109234526_WSksK.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234526_WSksK.thumb.400_0.jpeg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201807/23/20180723181826_rRhXV.thumb.400_0.jpeg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180723181826_rRhXV.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201807/23/20180723181826_rRhXV.thumb.400_0.jpeg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/202003/20/20200320083255_SfrRc.thumb.400_0.jpeg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200320083255_SfrRc.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202003/20/20200320083255_SfrRc.thumb.400_0.jpeg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/202004/11/20200411182544_shoeh.thumb.400_0.png
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200411182544_shoeh.thumb.400_0.png', 'https://c-ssl.duitang.com/uploads/item/202004/11/20200411182544_shoeh.thumb.400_0.png']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/202002/17/20200217222643_hsjir.thumb.400_0.jpg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200217222643_hsjir.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202002/17/20200217222643_hsjir.thumb.400_0.jpg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/24/20200724084343_jhkou.thumb.400_0.jpg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200724084343_jhkou.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/24/20200724084343_jhkou.thumb.400_0.jpg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/18/20200718093913_glsyy.thumb.400_0.jpg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200718093913_glsyy.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/18/20200718093913_glsyy.thumb.400_0.jpg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_fcqrn.thumb.400_0.jpg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200721180849_fcqrn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_fcqrn.thumb.400_0.jpg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/21/20200721180850_zpigm.thumb.400_0.webp
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200721180850_zpigmthumb400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180850_zpigm.thumb.400_0.webp']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_cpltk.thumb.400_0.jpg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200721180849_cpltk.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_cpltk.thumb.400_0.jpg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201911/29/20191129221141_dswbh.thumb.400_0.jpg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20191129221141_dswbh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201911/29/20191129221141_dswbh.thumb.400_0.jpg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/202003/14/20200314234038_hrflg.thumb.400_0.jpg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200314234038_hrflg.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202003/14/20200314234038_hrflg.thumb.400_0.jpg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/202006/13/20200613194123_uaqpy.thumb.400_0.jpeg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200613194123_uaqpy.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202006/13/20200613194123_uaqpy.thumb.400_0.jpeg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201903/02/20190302222344_dqcep.thumb.400_0.jpg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20190302222344_dqcep.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/02/20190302222344_dqcep.thumb.400_0.jpg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - https://c-ssl.duitang.com/uploads/item/201906/18/20190618203048_epddh.thumb.400_0.jpg
+08/18/2020 14:29:25 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20190618203048_epddh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201906/18/20190618203048_epddh.thumb.400_0.jpg']
+08/18/2020 14:29:25 PM - DEBUG - 保存图片成功！
+08/18/2020 14:29:25 PM - INFO - 缓存的所有图片信息列表：[['发饰 扇子', '20190320072741_jeitn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg'], ['发饰 扇子', '20171214170310_nmd8Y.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201712/14/20171214170310_nmd8Y.thumb.400_0.jpeg'], ['发饰 扇子', '20180415175933_mLntF.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201804/15/20180415175933_mLntF.thumb.400_0.jpeg'], ['发饰 扇子', '20170311004242_Qk85h.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201703/11/20170311004242_Qk85h.thumb.400_0.jpeg'], ['发饰 扇子', '20180502113133_Ykkxf.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/02/20180502113133_Ykkxf.thumb.400_0.jpeg'], ['发饰 扇子', '20180313113359_4vZGB.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201803/13/20180313113359_4vZGB.thumb.400_0.jpeg'], ['发饰 扇子', '20160626001058_ufahi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201606/26/20160626001058_ufahi.thumb.400_0.jpeg'], ['发饰 扇子', '20180109234729_FncRi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234729_FncRi.thumb.400_0.jpeg'], ['发饰 扇子', '20180528234313_VfPCu.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/28/20180528234313_VfPCu.thumb.400_0.jpeg'], ['发饰 扇子', '20180109234526_WSksK.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234526_WSksK.thumb.400_0.jpeg'], ['发饰 扇子', '20180723181826_rRhXV.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201807/23/20180723181826_rRhXV.thumb.400_0.jpeg'], ['发饰 扇子', '20200320083255_SfrRc.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202003/20/20200320083255_SfrRc.thumb.400_0.jpeg'], ['发饰 扇子', '20200411182544_shoeh.thumb.400_0.png', 'https://c-ssl.duitang.com/uploads/item/202004/11/20200411182544_shoeh.thumb.400_0.png'], ['发饰 扇子', '20200217222643_hsjir.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202002/17/20200217222643_hsjir.thumb.400_0.jpg'], ['发饰 扇子', '20200724084343_jhkou.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/24/20200724084343_jhkou.thumb.400_0.jpg'], ['发饰 扇子', '20200718093913_glsyy.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/18/20200718093913_glsyy.thumb.400_0.jpg'], ['发饰 扇子', '20200721180849_fcqrn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_fcqrn.thumb.400_0.jpg'], ['发饰 扇子', '20200721180850_zpigmthumb400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180850_zpigm.thumb.400_0.webp'], ['发饰 扇子', '20200721180849_cpltk.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_cpltk.thumb.400_0.jpg'], ['发饰 扇子', '20191129221141_dswbh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201911/29/20191129221141_dswbh.thumb.400_0.jpg'], ['发饰 扇子', '20200314234038_hrflg.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202003/14/20200314234038_hrflg.thumb.400_0.jpg'], ['发饰 扇子', '20200613194123_uaqpy.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202006/13/20200613194123_uaqpy.thumb.400_0.jpeg'], ['发饰 扇子', '20190302222344_dqcep.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/02/20190302222344_dqcep.thumb.400_0.jpg'], ['发饰 扇子', '20190618203048_epddh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201906/18/20190618203048_epddh.thumb.400_0.jpg']]
+08/18/2020 14:29:26 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:29:39 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:30:18 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:30:41 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:41:25 PM - WARNING - Not Found: /
+08/18/2020 14:41:47 PM - WARNING - Not Found: /appjia/
+08/18/2020 14:44:09 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:44:23 PM - WARNING - Not Found: /apptang/index2/
+08/18/2020 14:45:32 PM - WARNING - Not Found: /apptang/index2/
+08/18/2020 14:46:46 PM - DEBUG - Starting new HTTPS connection (1): www.sephora.cn:443
+08/18/2020 14:46:46 PM - DEBUG - https://www.sephora.cn:443 "GET /hot/?k=%E7%95%85%E9%94%80%E6%A6%9C%E5%8D%95&hasInventory=0&sortField=1&sortMode=desc&currentPage=1&filters= HTTP/1.1" 200 None
+08/18/2020 14:46:46 PM - DEBUG - Starting new HTTPS connection (1): www.sephora.cn:443
+08/18/2020 14:46:46 PM - DEBUG - https://www.sephora.cn:443 "GET /hot/?k=%E7%95%85%E9%94%80%E6%A6%9C%E5%8D%95&hasInventory=0&sortField=1&sortMode=desc&currentPage=2&filters= HTTP/1.1" 200 None
+08/18/2020 14:46:46 PM - DEBUG - Starting new HTTPS connection (1): www.sephora.cn:443
+08/18/2020 14:46:46 PM - DEBUG - https://www.sephora.cn:443 "GET /hot/?k=%E7%95%85%E9%94%80%E6%A6%9C%E5%8D%95&hasInventory=0&sortField=1&sortMode=desc&currentPage=3&filters= HTTP/1.1" 200 None
+08/18/2020 14:46:46 PM - DEBUG - Starting new HTTPS connection (1): www.sephora.cn:443
+08/18/2020 14:46:46 PM - DEBUG - https://www.sephora.cn:443 "GET /hot/?k=%E7%95%85%E9%94%80%E6%A6%9C%E5%8D%95&hasInventory=0&sortField=1&sortMode=desc&currentPage=4&filters= HTTP/1.1" 200 None
+08/18/2020 14:47:05 PM - WARNING - Not Found: /appzhu/chart/rainbowl.js
+08/18/2020 14:47:09 PM - WARNING - Not Found: /appzhu/chart/rainbowl.js
+08/18/2020 14:47:17 PM - WARNING - Not Found: /appzhu/chart2/rainbowl.js
+08/18/2020 14:47:18 PM - WARNING - Not Found: /appzhu/chart2/rainbowl.js
+08/18/2020 14:47:48 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:49:51 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:51:41 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:51:55 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:52:00 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:52:02 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:52:34 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:52:39 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:52:42 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:55:26 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:55:37 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:55:40 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:55:41 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:55:44 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:55:50 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:55:54 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:56:06 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:56:08 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:56:09 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:56:12 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:56:15 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:56:18 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:56:21 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:56:23 PM - DEBUG - 开始执行网页请求伪装！
+08/18/2020 14:56:23 PM - DEBUG - 网页请求伪装已完成！
+08/18/2020 14:56:23 PM - DEBUG - 开始请求网页！
+08/18/2020 14:56:23 PM - DEBUG - Starting new HTTPS connection (1): www.duitang.com:443
+08/18/2020 14:56:23 PM - DEBUG - https://www.duitang.com:443 "GET /album/?id=98243426&spm=2014.12553688.202.0 HTTP/1.1" 200 None
+08/18/2020 14:56:23 PM - INFO - 网页请求已成功！
+08/18/2020 14:56:23 PM - DEBUG - 开始解析网页！
+08/18/2020 14:56:23 PM - INFO - 网页解析已完成！
+08/18/2020 14:56:23 PM - DEBUG - 开始保存图片！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20190320072741_jeitn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201712/14/20171214170310_nmd8Y.thumb.400_0.jpeg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20171214170310_nmd8Y.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201712/14/20171214170310_nmd8Y.thumb.400_0.jpeg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201804/15/20180415175933_mLntF.thumb.400_0.jpeg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180415175933_mLntF.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201804/15/20180415175933_mLntF.thumb.400_0.jpeg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201703/11/20170311004242_Qk85h.thumb.400_0.jpeg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20170311004242_Qk85h.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201703/11/20170311004242_Qk85h.thumb.400_0.jpeg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201805/02/20180502113133_Ykkxf.thumb.400_0.jpeg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180502113133_Ykkxf.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/02/20180502113133_Ykkxf.thumb.400_0.jpeg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201803/13/20180313113359_4vZGB.thumb.400_0.jpeg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180313113359_4vZGB.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201803/13/20180313113359_4vZGB.thumb.400_0.jpeg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201606/26/20160626001058_ufahi.thumb.400_0.jpeg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20160626001058_ufahi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201606/26/20160626001058_ufahi.thumb.400_0.jpeg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201801/09/20180109234729_FncRi.thumb.400_0.jpeg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180109234729_FncRi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234729_FncRi.thumb.400_0.jpeg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201805/28/20180528234313_VfPCu.thumb.400_0.jpeg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180528234313_VfPCu.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/28/20180528234313_VfPCu.thumb.400_0.jpeg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201801/09/20180109234526_WSksK.thumb.400_0.jpeg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180109234526_WSksK.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234526_WSksK.thumb.400_0.jpeg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201807/23/20180723181826_rRhXV.thumb.400_0.jpeg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180723181826_rRhXV.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201807/23/20180723181826_rRhXV.thumb.400_0.jpeg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/202003/20/20200320083255_SfrRc.thumb.400_0.jpeg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200320083255_SfrRc.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202003/20/20200320083255_SfrRc.thumb.400_0.jpeg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/202004/11/20200411182544_shoeh.thumb.400_0.png
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200411182544_shoeh.thumb.400_0.png', 'https://c-ssl.duitang.com/uploads/item/202004/11/20200411182544_shoeh.thumb.400_0.png']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/202002/17/20200217222643_hsjir.thumb.400_0.jpg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200217222643_hsjir.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202002/17/20200217222643_hsjir.thumb.400_0.jpg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/24/20200724084343_jhkou.thumb.400_0.jpg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200724084343_jhkou.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/24/20200724084343_jhkou.thumb.400_0.jpg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/18/20200718093913_glsyy.thumb.400_0.jpg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200718093913_glsyy.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/18/20200718093913_glsyy.thumb.400_0.jpg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_fcqrn.thumb.400_0.jpg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200721180849_fcqrn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_fcqrn.thumb.400_0.jpg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/21/20200721180850_zpigm.thumb.400_0.webp
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200721180850_zpigmthumb400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180850_zpigm.thumb.400_0.webp']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_cpltk.thumb.400_0.jpg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200721180849_cpltk.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_cpltk.thumb.400_0.jpg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201911/29/20191129221141_dswbh.thumb.400_0.jpg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20191129221141_dswbh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201911/29/20191129221141_dswbh.thumb.400_0.jpg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/202003/14/20200314234038_hrflg.thumb.400_0.jpg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200314234038_hrflg.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202003/14/20200314234038_hrflg.thumb.400_0.jpg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/202006/13/20200613194123_uaqpy.thumb.400_0.jpeg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200613194123_uaqpy.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202006/13/20200613194123_uaqpy.thumb.400_0.jpeg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201903/02/20190302222344_dqcep.thumb.400_0.jpg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20190302222344_dqcep.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/02/20190302222344_dqcep.thumb.400_0.jpg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - https://c-ssl.duitang.com/uploads/item/201906/18/20190618203048_epddh.thumb.400_0.jpg
+08/18/2020 14:56:23 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20190618203048_epddh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201906/18/20190618203048_epddh.thumb.400_0.jpg']
+08/18/2020 14:56:23 PM - DEBUG - 保存图片成功！
+08/18/2020 14:56:23 PM - INFO - 缓存的所有图片信息列表：[['发饰 扇子', '20190320072741_jeitn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg'], ['发饰 扇子', '20171214170310_nmd8Y.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201712/14/20171214170310_nmd8Y.thumb.400_0.jpeg'], ['发饰 扇子', '20180415175933_mLntF.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201804/15/20180415175933_mLntF.thumb.400_0.jpeg'], ['发饰 扇子', '20170311004242_Qk85h.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201703/11/20170311004242_Qk85h.thumb.400_0.jpeg'], ['发饰 扇子', '20180502113133_Ykkxf.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/02/20180502113133_Ykkxf.thumb.400_0.jpeg'], ['发饰 扇子', '20180313113359_4vZGB.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201803/13/20180313113359_4vZGB.thumb.400_0.jpeg'], ['发饰 扇子', '20160626001058_ufahi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201606/26/20160626001058_ufahi.thumb.400_0.jpeg'], ['发饰 扇子', '20180109234729_FncRi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234729_FncRi.thumb.400_0.jpeg'], ['发饰 扇子', '20180528234313_VfPCu.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/28/20180528234313_VfPCu.thumb.400_0.jpeg'], ['发饰 扇子', '20180109234526_WSksK.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234526_WSksK.thumb.400_0.jpeg'], ['发饰 扇子', '20180723181826_rRhXV.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201807/23/20180723181826_rRhXV.thumb.400_0.jpeg'], ['发饰 扇子', '20200320083255_SfrRc.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202003/20/20200320083255_SfrRc.thumb.400_0.jpeg'], ['发饰 扇子', '20200411182544_shoeh.thumb.400_0.png', 'https://c-ssl.duitang.com/uploads/item/202004/11/20200411182544_shoeh.thumb.400_0.png'], ['发饰 扇子', '20200217222643_hsjir.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202002/17/20200217222643_hsjir.thumb.400_0.jpg'], ['发饰 扇子', '20200724084343_jhkou.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/24/20200724084343_jhkou.thumb.400_0.jpg'], ['发饰 扇子', '20200718093913_glsyy.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/18/20200718093913_glsyy.thumb.400_0.jpg'], ['发饰 扇子', '20200721180849_fcqrn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_fcqrn.thumb.400_0.jpg'], ['发饰 扇子', '20200721180850_zpigmthumb400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180850_zpigm.thumb.400_0.webp'], ['发饰 扇子', '20200721180849_cpltk.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_cpltk.thumb.400_0.jpg'], ['发饰 扇子', '20191129221141_dswbh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201911/29/20191129221141_dswbh.thumb.400_0.jpg'], ['发饰 扇子', '20200314234038_hrflg.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202003/14/20200314234038_hrflg.thumb.400_0.jpg'], ['发饰 扇子', '20200613194123_uaqpy.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202006/13/20200613194123_uaqpy.thumb.400_0.jpeg'], ['发饰 扇子', '20190302222344_dqcep.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/02/20190302222344_dqcep.thumb.400_0.jpg'], ['发饰 扇子', '20190618203048_epddh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201906/18/20190618203048_epddh.thumb.400_0.jpg']]
+08/18/2020 14:56:24 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:56:26 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:56:29 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 14:56:47 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:01:45 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:01:48 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:03:34 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:06:06 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:06:20 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:06:56 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:11:44 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:11:47 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:11:53 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:12:01 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:16:25 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:16:28 PM - WARNING - Not Found: /appshao/
+08/18/2020 15:16:40 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:20:02 PM - WARNING - Not Found: /
+08/18/2020 15:20:27 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:20:43 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:20:46 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:20:47 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:20:50 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:20:54 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:20:57 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:20:59 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:21:06 PM - DEBUG - 开始执行网页请求伪装！
+08/18/2020 15:21:06 PM - DEBUG - 网页请求伪装已完成！
+08/18/2020 15:21:06 PM - DEBUG - 开始请求网页！
+08/18/2020 15:21:06 PM - DEBUG - Starting new HTTPS connection (1): www.duitang.com:443
+08/18/2020 15:21:06 PM - DEBUG - https://www.duitang.com:443 "GET /album/?id=98243426&spm=2014.12553688.202.0 HTTP/1.1" 200 None
+08/18/2020 15:21:06 PM - INFO - 网页请求已成功！
+08/18/2020 15:21:06 PM - DEBUG - 开始解析网页！
+08/18/2020 15:21:06 PM - INFO - 网页解析已完成！
+08/18/2020 15:21:06 PM - DEBUG - 开始保存图片！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20190320072741_jeitn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201712/14/20171214170310_nmd8Y.thumb.400_0.jpeg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20171214170310_nmd8Y.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201712/14/20171214170310_nmd8Y.thumb.400_0.jpeg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201804/15/20180415175933_mLntF.thumb.400_0.jpeg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180415175933_mLntF.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201804/15/20180415175933_mLntF.thumb.400_0.jpeg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201703/11/20170311004242_Qk85h.thumb.400_0.jpeg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20170311004242_Qk85h.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201703/11/20170311004242_Qk85h.thumb.400_0.jpeg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201805/02/20180502113133_Ykkxf.thumb.400_0.jpeg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180502113133_Ykkxf.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/02/20180502113133_Ykkxf.thumb.400_0.jpeg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201803/13/20180313113359_4vZGB.thumb.400_0.jpeg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180313113359_4vZGB.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201803/13/20180313113359_4vZGB.thumb.400_0.jpeg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201606/26/20160626001058_ufahi.thumb.400_0.jpeg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20160626001058_ufahi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201606/26/20160626001058_ufahi.thumb.400_0.jpeg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201801/09/20180109234729_FncRi.thumb.400_0.jpeg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180109234729_FncRi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234729_FncRi.thumb.400_0.jpeg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201805/28/20180528234313_VfPCu.thumb.400_0.jpeg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180528234313_VfPCu.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/28/20180528234313_VfPCu.thumb.400_0.jpeg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201801/09/20180109234526_WSksK.thumb.400_0.jpeg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180109234526_WSksK.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234526_WSksK.thumb.400_0.jpeg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201807/23/20180723181826_rRhXV.thumb.400_0.jpeg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20180723181826_rRhXV.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201807/23/20180723181826_rRhXV.thumb.400_0.jpeg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/202003/20/20200320083255_SfrRc.thumb.400_0.jpeg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200320083255_SfrRc.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202003/20/20200320083255_SfrRc.thumb.400_0.jpeg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/202004/11/20200411182544_shoeh.thumb.400_0.png
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200411182544_shoeh.thumb.400_0.png', 'https://c-ssl.duitang.com/uploads/item/202004/11/20200411182544_shoeh.thumb.400_0.png']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/202002/17/20200217222643_hsjir.thumb.400_0.jpg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200217222643_hsjir.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202002/17/20200217222643_hsjir.thumb.400_0.jpg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/24/20200724084343_jhkou.thumb.400_0.jpg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200724084343_jhkou.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/24/20200724084343_jhkou.thumb.400_0.jpg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/18/20200718093913_glsyy.thumb.400_0.jpg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200718093913_glsyy.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/18/20200718093913_glsyy.thumb.400_0.jpg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_fcqrn.thumb.400_0.jpg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200721180849_fcqrn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_fcqrn.thumb.400_0.jpg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/21/20200721180850_zpigm.thumb.400_0.webp
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200721180850_zpigmthumb400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180850_zpigm.thumb.400_0.webp']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_cpltk.thumb.400_0.jpg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200721180849_cpltk.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_cpltk.thumb.400_0.jpg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201911/29/20191129221141_dswbh.thumb.400_0.jpg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20191129221141_dswbh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201911/29/20191129221141_dswbh.thumb.400_0.jpg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/202003/14/20200314234038_hrflg.thumb.400_0.jpg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200314234038_hrflg.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202003/14/20200314234038_hrflg.thumb.400_0.jpg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/202006/13/20200613194123_uaqpy.thumb.400_0.jpeg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20200613194123_uaqpy.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202006/13/20200613194123_uaqpy.thumb.400_0.jpeg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201903/02/20190302222344_dqcep.thumb.400_0.jpg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20190302222344_dqcep.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/02/20190302222344_dqcep.thumb.400_0.jpg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - https://c-ssl.duitang.com/uploads/item/201906/18/20190618203048_epddh.thumb.400_0.jpg
+08/18/2020 15:21:06 PM - INFO - 缓存的图片信息列表：['发饰 扇子', '20190618203048_epddh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201906/18/20190618203048_epddh.thumb.400_0.jpg']
+08/18/2020 15:21:06 PM - DEBUG - 保存图片成功！
+08/18/2020 15:21:06 PM - INFO - 缓存的所有图片信息列表：[['发饰 扇子', '20190320072741_jeitn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg'], ['发饰 扇子', '20171214170310_nmd8Y.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201712/14/20171214170310_nmd8Y.thumb.400_0.jpeg'], ['发饰 扇子', '20180415175933_mLntF.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201804/15/20180415175933_mLntF.thumb.400_0.jpeg'], ['发饰 扇子', '20170311004242_Qk85h.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201703/11/20170311004242_Qk85h.thumb.400_0.jpeg'], ['发饰 扇子', '20180502113133_Ykkxf.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/02/20180502113133_Ykkxf.thumb.400_0.jpeg'], ['发饰 扇子', '20180313113359_4vZGB.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201803/13/20180313113359_4vZGB.thumb.400_0.jpeg'], ['发饰 扇子', '20160626001058_ufahi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201606/26/20160626001058_ufahi.thumb.400_0.jpeg'], ['发饰 扇子', '20180109234729_FncRi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234729_FncRi.thumb.400_0.jpeg'], ['发饰 扇子', '20180528234313_VfPCu.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/28/20180528234313_VfPCu.thumb.400_0.jpeg'], ['发饰 扇子', '20180109234526_WSksK.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234526_WSksK.thumb.400_0.jpeg'], ['发饰 扇子', '20180723181826_rRhXV.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201807/23/20180723181826_rRhXV.thumb.400_0.jpeg'], ['发饰 扇子', '20200320083255_SfrRc.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202003/20/20200320083255_SfrRc.thumb.400_0.jpeg'], ['发饰 扇子', '20200411182544_shoeh.thumb.400_0.png', 'https://c-ssl.duitang.com/uploads/item/202004/11/20200411182544_shoeh.thumb.400_0.png'], ['发饰 扇子', '20200217222643_hsjir.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202002/17/20200217222643_hsjir.thumb.400_0.jpg'], ['发饰 扇子', '20200724084343_jhkou.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/24/20200724084343_jhkou.thumb.400_0.jpg'], ['发饰 扇子', '20200718093913_glsyy.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/18/20200718093913_glsyy.thumb.400_0.jpg'], ['发饰 扇子', '20200721180849_fcqrn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_fcqrn.thumb.400_0.jpg'], ['发饰 扇子', '20200721180850_zpigmthumb400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180850_zpigm.thumb.400_0.webp'], ['发饰 扇子', '20200721180849_cpltk.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_cpltk.thumb.400_0.jpg'], ['发饰 扇子', '20191129221141_dswbh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201911/29/20191129221141_dswbh.thumb.400_0.jpg'], ['发饰 扇子', '20200314234038_hrflg.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202003/14/20200314234038_hrflg.thumb.400_0.jpg'], ['发饰 扇子', '20200613194123_uaqpy.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202006/13/20200613194123_uaqpy.thumb.400_0.jpeg'], ['发饰 扇子', '20190302222344_dqcep.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/02/20190302222344_dqcep.thumb.400_0.jpg'], ['发饰 扇子', '20190618203048_epddh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201906/18/20190618203048_epddh.thumb.400_0.jpg']]
+08/18/2020 15:21:06 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:21:25 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:21:29 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:21:52 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:22:02 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:22:07 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:22:38 PM - WARNING - Not Found: /favicon.ico
+08/18/2020 15:22:54 PM - WARNING - Not Found: /appzhu/chart/rainbowl.js
+08/18/2020 15:22:59 PM - WARNING - Not Found: /appzhu/chart/rainbowl.js
+08/18/2020 15:23:33 PM - WARNING - Not Found: /appzhu/chart/rainbowl.js
+08/18/2020 15:23:34 PM - WARNING - Not Found: /appzhu/chart/rainbowl.js
+08/18/2020 15:23:40 PM - WARNING - Not Found: /favicon.ico

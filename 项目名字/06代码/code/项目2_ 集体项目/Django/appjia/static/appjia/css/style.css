@@ -1,0 +1,490 @@
+appjia{
+    margin:0 ;
+    padding: 0;
+    font-family: Poppins;
+}
+.navbar{
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #d4d7de;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-top: -0.5%;
+    margin-right:10%;
+}
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:40px;
+    color: #ff7813;
+    font-family: 汉仪乐喵体W;
+    font-weight: bolder;
+    z-index: 1100;
+    margin-top: 1%;
+}
+a{
+    margin: 20px;
+    color:#000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color:#000
+}
+
+.banner-area{
+    height:100vh;
+    background-image:linear-gradient(to right,#fbc2eb,#a6c1ee)
+
+    /*background: url(image01.jpg) no-repeat;*/
+    /*background-attachment:fixed;*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    /*height: 100vh;*/
+}
+.box{
+    width:450px;
+    background:rgba(0,0,0,0.4);
+    padding:30px;
+    text-align: center;
+    margin:auto;
+    color:white;
+    font-family: '幼圆',sans-serif;
+    position: absolute;
+    left:90px;
+    background-size:auto 100px;
+}
+.box-img{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    margin-top:15%;
+}
+.box h1{
+    margin-top: 18px;
+    font-size:40px;
+    letter-spacing:4px;
+    font-weight:bold;
+    font-family: '幼圆',sans-serif;
+    margin-bottom: 20px;
+}
+.box h5{
+    font-size:25px;
+    letter-spacing:4px;
+    font-weight:bold;
+    font-family: '幼圆',sans-serif;
+    margin-bottom: 10px;
+}
+
+.box2{
+    width:450px;
+    background:rgba(0,0,0,0.4);
+    background-size:auto 100px;
+    padding:30px;
+    text-align: center;
+    margin:auto;
+    color:white;
+    font-family: '幼圆',sans-serif;
+    position: absolute;
+    right:60px;
+    margin-bottom:30px;
+}
+.box2-img{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    margin-top:15%;
+}
+.box2 h1{
+    margin-top: 18px;
+    font-size:40px;
+    letter-spacing:4px;
+    font-weight:bold;
+    font-family: '幼圆',sans-serif;
+    margin-bottom: 20px;
+}
+.box2 h5{
+    font-size:25px;
+    letter-spacing:3px;
+    font-weight:bold;
+    font-family: '幼圆',sans-serif;
+    margin-bottom: 10px;
+}
+
+
+.service-area ,.contact-area {
+    position:relative;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:row;
+    width:100%;
+    height:700px;
+}
+.port-area{
+    position:relative;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:row;
+    width:100%;
+}
+.text-part{
+    width: 65%;
+    height: 80%;
+}
+h1{
+    font-size:50px;
+    font-family: 汉仪乐喵体W;
+
+}
+p{
+    font-size:24px;
+    line-height: 50px;
+}
+
+.about-area{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height:100vh;
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(45deg,#e66465, #9198e5);
+}
+.container{
+    width:1200px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-gap:15px;
+    margin:0 auto;
+}
+.container  .card{
+    position: relative;
+    width:300px;
+    height: 400px;
+    margin-top: 40%;
+    margin-left: 10%;
+    background: #fff;
+    box-shadow: 0 15px 60px rgba(0,0,0,.5);
+    z-index: 1200;
+}
+.container  .card .face{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container  .card .face.face1{
+    box-sizing:border-box;
+    padding:20px;
+    /*z-index: 1200;*/
+}
+.container  .card .face.face1 .content a{
+    font-family: 汉仪乐喵体W ;
+    font-size: 30px;
+    text-align: center;
+}
+.container  .card .face.face1 .content a:hover{
+    color:red;
+}
+.container  .card .face.face1 h2{
+    margin: 0;
+    padding: 0;
+    /*z-index: 1200;*/
+}
+.container  .card .face.face2 .first{
+    background-image: url(rank01.jpg);
+    transition: 0.5s;
+    background-size: cover;
+}
+.container  .card .face.face2 .second{
+    background-image: url(rank02.jpg);
+    transition: 0.5s;
+    background-size: cover;
+}
+.container  .card .face.face2 .third{
+    background-image: url(rank03.jpg);
+    transition: 0.5s;
+    background-size: cover;
+}
+/*.container  .card .face.face2 {*/
+/*    background: #111;*/
+/*    transition: 0.5s;*/
+/*    !*z-index: 1300;*!*/
+/*}*/
+
+/*.container  .card:nth-child(1) .face.face2:*/
+/*{*/
+/*    background: linear-gradient(45deg,#3503ad,#f7308c);*/
+/*}*/
+
+.container  .card:hover .face.face2{
+    height:60px;
+}
+.container  .card .face.face2:before{
+    content:'';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,.1);
+}
+.container  .card .face.face2 h2{
+    margin: 0;
+    padding: 0;
+    font-size:10em;
+    color:#fff;
+    transition: 0.5s;
+    /*z-index: 1300;*/
+    text-shadow:0 2px 5px rgba(0,0,0,.2);
+}
+.container  .card:hover .face.face2 h2{
+    font-size:2em;
+}
+
+
+
+.port-area,.about-area.service-area{
+    background: #fefefe;
+}
+.contact-area{
+    background: #262626;
+    color:#fff;
+}
+html{
+scroll-behavior:smooth;
+}
+
+/*.port-area .zebra{*/
+/*    z-index: 1500;*/
+/*}*/
+
+/*szq侧边栏*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: fixed;
+    left: -500px;
+    width: 250px;
+    height: 100%;
+    z-index: 1111;
+    background: #042331;
+    transition: all .5s;
+}
+
+.sidebar header{
+    font-family: 幼圆 ;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    background: #063146;
+    user-select: none;
+}
+
+.sidebar ul li a{
+    display: block ;
+    height: 100%;
+    width: 100%;
+    line-height: 25px;
+    font-family:汉仪乐喵体W;
+    font-size: 20px;
+    color:white;
+    padding-left: 0px;
+    box-sizing: border-box;
+    border-top:1px solid rgba(255,255,255,.1);
+    border-bottom: 0px solid black;
+    transition:.4s
+}
+
+.sidebar ul li:hover a{
+    padding-left: 50px;
+}
+
+.sidebar ul a i{
+    margin-right: 16px;
+}
+
+#check{
+    display: none;
+}
+
+label #btn,label #cancel{
+    position:absolute;
+    cursor: pointer;
+    background:#042331;
+    border-radius: 3px;
+}
+
+
+label #cancel{
+    position:absolute;
+    cursor: pointer;
+    background:#042331;
+    border-radius: 5px;
+}
+
+label #btn{
+    z-index: 1200;
+    left: 40px;
+    top: 10px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+
+label #cancel{
+    z-index: 1112;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #0a5276;
+    padding: 4px 9px;
+    transition: all .5s;
+}
+
+#check:checked ~.sidebar{
+    left: 0;
+}
+
+#check:checked ~label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~label #cancel{
+    left: 195px;
+}
+
+/*表格格式*/
+
+
+.port-area{
+    padding:0;
+	margin:0;
+	position:relative;
+	background:  linear-gradient(to right,#fbc2eb,#a6c1ee);
+    background-size:cover;
+	color:#fff;
+	letter-spacing:1px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	background-repeat:repeat;
+
+}
+
+.zebra caption{
+	font-size:40px;
+	font-weight: bold;
+    font-family: 汉仪乐喵体W;
+    color: red;
+	background-repeat:no-repeat;
+	background-position: center;
+	padding-top:90px;
+	height:50px;
+}
+
+#container{
+	padding-top:20px;
+	width:1300px;
+	margin:0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+	width:100%;
+	-webkit-box-shadow:  0px 2px 1px 5px rgba(242, 242, 242, 0.1);
+    box-shadow:  0px 2px 1px 5px rgba(242, 242, 242, 0.1);
+    margin-left:0;
+    margin-right: 0;
+
+
+}
+
+.zebra {
+    border: 1px solid #555;
+    text-align: center;
+}
+
+.zebra td {
+    border-left: 1px solid #555;
+    border-top: 1px solid #555;
+    padding: 5px;
+    text-align: center;
+    word-break:break-all;
+    word-wrap:break-word
+}
+
+.zebra th, .zebra th:hover {
+    border-left: 1px solid #555;
+	border-bottom: 1px solid #828282;
+    padding: 5px;
+    background-color:#151515 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#151515), to(#404040)) !important;
+    background-image: -webkit-linear-gradient(top, #151515, #404040) !important;
+    background-image:    -moz-linear-gradient(top, #151515, #404040) !important;
+    background-image:     -ms-linear-gradient(top, #151515, #404040) !important;
+    background-image:      -o-linear-gradient(top, #151515, #404040) !important;
+    background-image:         linear-gradient(top, #151515, #404040) !important;
+
+    /*background-color:#fbc2eb !important;*/
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(#fbc2eb), to(#a6c1ee)) !important;*/
+    /*background-image: -webkit-linear-gradient(top, #fbc2eb, #a6c1ee) !important;*/
+    /*background-image:    -moz-linear-gradient(top, #fbc2eb, #a6c1ee) !important;*/
+    /*background-image:     -ms-linear-gradient(top, #fbc2eb, #a6c1ee) !important;*/
+    /*background-image:      -o-linear-gradient(top, #fbc2eb, #a6c1ee) !important;*/
+    /*background-image:         linear-gradient(top, #fbc2eb, #a6c1ee) !important;*/
+
+	color:#fff !important;
+	font-weight:normal;
+}
+
+.zebra tappjia tr:nth-child(even) {
+    background: #000 !important;
+	color:#fff;
+}
+
+.zebra tr:hover *{
+    background: #eeeeee;
+	color:#000000;
+}
+
+.zebra tr {
+	background: #404040;
+	color:#fff;
+}
+
+.zebra a {
+   color:#fff;
+    font-size:14px;
+}
