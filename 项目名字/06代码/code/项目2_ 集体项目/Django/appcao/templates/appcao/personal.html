@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D图片翻转动画</title>
+    {% load static %}
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        * {
+			margin: 0;
+			padding: 0;
+		}
+
+        .intro{
+
+            position:absolute;
+            margin-left:700px;
+            margin-top:200px;
+            animation: rotate1 6s linear infinite;
+        }
+        .intro img{
+            border:2px white solid;
+            border-radius:50%;
+        }
+        @keyframes rotate1 {
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+        .introduce{
+            position:absolute;
+            margin-left:600px;
+            margin-top:450px;
+            font-family: 华文隶书;
+            font-size: 30px;
+            color: white;
+        }
+        .group{
+
+            position: absolute;
+            right:0px;
+            top:0px;
+        }
+        .self{
+            position:absolute;
+            right:0px;
+            top:70px;
+        }
+
+
+        {#侧边栏#}
+        .sidebar{
+            margin-top:0px;
+            position: fixed;
+            left: -250px;
+            width: 250px;
+            height: 100%;
+            background: #042331;
+            transition: all .5s;
+        }
+
+        .sidebar header{
+            font-family: 华文行楷;
+            font-size: 35px;
+            color: white;
+            text-align: center;
+            line-height: 70px;
+            background: #063146;
+            user-select: none;
+        }
+
+        .sidebar ul li a{
+            display: block ;
+            height: 100%;
+            width: 100%;
+            line-height: 65px;
+            font-family: 华文隶书;
+            font-size: 30px;
+            color:white;
+            padding-left: 40px;
+            box-sizing: border-box;
+            border-top:1px solid rgba(255,255,255,.1);
+            border-bottom: 1px solid black;
+            transition:.4s
+        }
+
+        .sidebar ul li:hover a{
+            padding-left: 50px;
+        }
+
+        .sidebar ul a i{
+            margin-right: 16px;
+        }
+
+        #check{
+            display: none;
+        }
+
+        label #btn,label #cancel{
+            position:absolute;
+            cursor: pointer;
+            background:#042331;
+            border-radius: 3px;
+        }
+
+        label #btn{
+            left: 40px;
+            top: 25px;
+            font-size: 35px;
+            color: white;
+            padding: 6px 12px;
+            transition: all .5s;
+        }
+
+        label #cancel{
+            z-index: 1111;
+            left: -195px;
+            top: 17px;
+            font-size: 30px;
+            color: #0a5276;
+            padding: 4px 9px;
+            transition: all .5s ease;
+        }
+
+        #check:checked ~.sidebar{
+            left: 0;
+        }
+
+        #check:checked ~label #btn{
+            left: 250px;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        #check:checked ~label #cancel{
+         left: 195px;
+        }
+    </style>
+
+</head>
+<!--背景-->
+<body onload="init()" background="{% static 'appcao/image/imagestar.jpg'%}">
+<audio src="{% static 'appcao/music/chaoming.mp3' %}"  loop="loop" preload="auto"  autoplay="autoplay"></audio>
+
+    <div class="group">
+        <img src="{% static 'appcao/image/imagegroup.png' %}" width="150px" height="60px">
+    </div>
+    <div class="self">
+        <img src="{% static 'appcao/image/imageself.png' %}" width="150px" height="60px">
+    </div>
+
+    <div class="intro">
+        <img src="{% static 'appcao/image/imageperson.jpg' %}" width="200px">
+    </div>
+    <div class="introduce">
+        <p>Hi！欢迎来到曹梓的个人主页！</p><br>
+        <p>项目：图片爬虫项目</p>
+        <p>展示：3D旋转图片、平滑滚动图片、图片信息表</p>
+    </div>
+
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+        <header><i class="fas fa-align-center"></i>导航栏</header>
+        <ul>
+            <li><a href="http://localhost:8000/appcao/personal/"><i class="fas fa-qrcode"></i>Personal homepage</a></li>
+            <li><a href="http://localhost:8000/appcao/photodisp/"><i class="fas fa-hourglass"></i>Spider Display</a></li>
+            <li><a href="http://localhost:8000/appcao/phototable"><i class="fas fa-hourglass"></i>Spider Result</a></li>
+            <li><a href="#"><i class="fas fa-link"></i>To zhqshao</a></li>
+            <li><a href="#"><i class="fas fa-link"></i>To lrztang</a></li>
+            <li><a href="#"><i class="fas fa-link"></i>To xinrongjia</a></li>
+            <li><a href="#"><i class="fas fa-link"></i>To bingzhu</a></li>
+            <li><a href="http://localhost:8000/app/index/"><i class="fas fa-link"></i>Homepage</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
