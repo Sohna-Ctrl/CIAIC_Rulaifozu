@@ -1,19 +1,19 @@
-.button1{
+/*.button1{*/
 
-width:300px;
-height:300px;
-right:500px; //只是假设的数据，需要实际测量
-top:400px;
+/*width:30px;*/
+/*height:300px;*/
+/*right:50px; //只是假设的数据，需要实际测量*/
+/*top:40px;*/
 
-}
+/*}*/
 
 button{
-            width: 500px;
-            height: 100px;
+            width: 100px;
+            height: 30px;
 			background-color:transparent;
             border-style:none;
 			color:black;
-            /*value:300px;*/
-            font-size: 65px;
+            /*value:500px;*/
+            font-size: 20px;
 
         }

@@ -448,7 +448,7 @@ table {
 .zebra th, .zebra th:hover {
     border-left: 1px solid #555;
 	border-bottom: 1px solid #828282;
-    padding: 5px;
+    padding: 20px;
     background-color:#151515 !important;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#151515), to(#404040)) !important;
     background-image: -webkit-linear-gradient(top, #151515, #404040) !important;
@@ -456,6 +456,9 @@ table {
     background-image:     -ms-linear-gradient(top, #151515, #404040) !important;
     background-image:      -o-linear-gradient(top, #151515, #404040) !important;
     background-image:         linear-gradient(top, #151515, #404040) !important;
+	color:#fff !important;
+	font-weight:normal;
+}
 
     /*background-color:#fbc2eb !important;*/
     /*background-image: -webkit-gradient(linear, left top, left bottom, from(#fbc2eb), to(#a6c1ee)) !important;*/
@@ -465,22 +468,19 @@ table {
     /*background-image:      -o-linear-gradient(top, #fbc2eb, #a6c1ee) !important;*/
     /*background-image:         linear-gradient(top, #fbc2eb, #a6c1ee) !important;*/
 
-	color:#fff !important;
-	font-weight:normal;
-}
 
-.zebra tappjia tr:nth-child(even) {
+.zebra tbody tr:nth-child(even) {
     background: #000 !important;
 	color:#fff;
 }
 
 .zebra tr:hover *{
     background: #eeeeee;
-	color:#000000;
+	color:#000;
 }
 
 .zebra tr {
-	background: #404040;
+	background:#404040;
 	color:#fff;
 }
 
@@ -488,3 +488,5 @@ table {
    color:#fff;
     font-size:14px;
 }
+
+

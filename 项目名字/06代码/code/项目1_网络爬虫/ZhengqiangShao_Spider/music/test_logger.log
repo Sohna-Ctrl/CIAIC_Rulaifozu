@@ -1,0 +1,19 @@
+2020-08-10 08:16:14,891 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:72] - INFO: 开始爬取网页内容
+2020-08-10 08:16:14,892 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:49] - INFO: 开始获取豆瓣音乐"最受欢迎音乐人Top20"的网页内容
+2020-08-10 08:16:26,033 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:65] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-08-10 08:16:26,036 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:76] - INFO: 开始进行网页内容解析
+2020-08-10 08:16:26,037 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:123] - INFO: 网页内容解析结束
+2020-08-10 08:16:26,037 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:129] - INFO: 开始进行 Top20 歌手的指定信息保存
+2020-08-10 08:19:03,058 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:71] - INFO: 开始爬取网页内容
+2020-08-10 08:19:03,058 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:48] - INFO: 开始获取豆瓣音乐"最受欢迎音乐人Top20"的网页内容
+2020-08-10 08:19:14,159 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:64] - ERROR: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2020-08-10 08:19:14,161 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:75] - INFO: 开始进行网页内容解析
+2020-08-10 08:19:14,162 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:122] - INFO: 网页内容解析结束
+2020-08-10 08:19:14,163 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:128] - INFO: 开始进行 Top20 歌手的指定信息保存
+2020-08-10 08:23:25,278 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:68] - INFO: 开始爬取网页内容
+2020-08-10 08:23:25,279 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:45] - INFO: 开始获取豆瓣音乐"最受欢迎音乐人Top20"的网页内容
+2020-08-10 08:23:37,586 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:56] - INFO: 获取网页内容成功！
+2020-08-10 08:23:37,586 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:72] - INFO: 开始进行网页内容解析
+2020-08-10 08:23:37,630 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:119] - INFO: 网页内容解析结束
+2020-08-10 08:23:37,631 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:125] - INFO: 开始进行 Top20 歌手的指定信息保存
+2020-08-10 08:23:37,641 - C:/Users/邵正强/PycharmProjects/sipder/music/spider_Singer.py[line:144] - INFO: excel数据保存成功！

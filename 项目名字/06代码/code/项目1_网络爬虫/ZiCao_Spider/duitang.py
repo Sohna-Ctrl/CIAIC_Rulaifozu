@@ -158,7 +158,13 @@ def get_photo(img_urls, dir_name, headers, save_path, logger):
             img_info.append([dir_name, file_name, img_url])
             logger.info("缓存的图片信息列表：%s" % [dir_name, file_name, img_url])
             # 文件写入
-            with open(dir_name + '/' + file_name, 'wb') as file:
+            # with open(dir_name + '/' + file_name, 'wb') as file:
+            #     file.write(response.content)
+            #     # 下载提示
+            #     logger.info('%s已下载' % file_name)
+            # pass
+            # with open('E:/pyproject/Django/appcao/static/appcao/image' + '/' + 'image'+ str(img_count)+'.jpg', 'wb') as file:
+            with open(dir_name + '/' + 'image' + str(img_count) + '.jpg', 'wb') as file:
                 file.write(response.content)
                 # 下载提示
                 logger.info('%s已下载' % file_name)

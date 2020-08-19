@@ -12,12 +12,12 @@ html, body{
 }
 
 .zebra caption{
-	font-size:100px;
+	font-size:30px;
 	}
 
 #container{
-	padding-top:100px;
-	width:4000px;
+	padding-top:30px;
+	width:1100px;
 	margin:0 auto;
 }
 
@@ -36,15 +36,15 @@ table {
 .zebra td {
     border-left: 1px solid #555;
     border-top: 1px solid #555;
-    padding: 10px;
+    padding: 3px;
     text-align: center;
-    font-size: 50px;
+    font-size: 15px;
 }
 
 .zebra th, .zebra th:hover {
     border-left: 1px solid #555;
 	border-bottom: 1px solid #828282;
-    padding: 20px;
+    padding: 7px;
     background-color:#151515 !important;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#151515), to(#404040)) !important;
     background-image: -webkit-linear-gradient(top, #151515, #404040) !important;
@@ -74,21 +74,21 @@ table {
 
 .button1{
 
-width:300px;
-height:300px;
-right:500px; //只是假设的数据，需要实际测量
-top:400px;
+width:100px;
+height:100px;
+right:167px; //只是假设的数据，需要实际测量
+top:133px;
 
 }
 
 button{
-            width: 500px;
-            height: 100px;
+            width: 167px;
+            height: 33px;
 			background-color:transparent;
             border-style:none;
 			color:white;
             /*value:300px;*/
-            font-size: 65px;
+            font-size: 22px;
 
         }
 .zebra a {

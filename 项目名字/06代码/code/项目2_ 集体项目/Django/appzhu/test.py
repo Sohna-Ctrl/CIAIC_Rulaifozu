@@ -151,6 +151,7 @@ def getlistmain():
         # print('{}-{}:{}'.format(k*300,(k+1)*300),len(list(g))
         print('{}-{}: {}'.format(k * 200, (k + 1) * 200 - 1, len(list(g))))
     print(dic)
+    print(type(sublist_web_name[0]))
 
     # print(var_reallowestprice_noSymble)
     # print(var_intlowestprice_noSymble)

@@ -1,0 +1,342 @@
+2020-08-18 19:39:58,973 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:28] - DEBUG: 开始执行网页请求伪装！
+2020-08-18 19:39:58,973 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:35] - DEBUG: 网页请求伪装已完成！
+2020-08-18 19:39:58,973 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:50] - DEBUG: 开始请求网页！
+2020-08-18 19:39:58,980 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): www.duitang.com:443
+2020-08-18 19:39:59,571 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://www.duitang.com:443 "GET /album/?id=98243426&spm=2014.12553688.202.0 HTTP/1.1" 200 None
+2020-08-18 19:39:59,580 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:59] - INFO: 网页请求已成功！
+2020-08-18 19:39:59,580 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:74] - DEBUG: 开始解析网页！
+2020-08-18 19:39:59,581 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:85] - INFO: 网页解析已完成！
+2020-08-18 19:39:59,581 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:101] - DEBUG: 开始创建文件夹！
+2020-08-18 19:39:59,581 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:106] - INFO: 文件夹“发饰 扇子”创建成功！
+2020-08-18 19:39:59,581 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:113] - DEBUG: 创建文件夹执行完毕！
+2020-08-18 19:39:59,581 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:223] - DEBUG: 开始创建保存图片信息的文件！
+2020-08-18 19:39:59,585 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:270] - INFO: 文件“duitang.xls”创建成功！
+2020-08-18 19:39:59,585 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:277] - DEBUG: 创建保存图片信息的文件执行完毕！
+2020-08-18 19:39:59,585 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:127] - DEBUG: 开始保存图片！
+2020-08-18 19:39:59,586 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg
+2020-08-18 19:39:59,589 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:39:59,690 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg HTTP/1.1" 200 78618
+2020-08-18 19:39:59,704 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:39:59,753 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:39:59,754 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:39:59,754 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20190320072741_jeitn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg']
+2020-08-18 19:39:59,757 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20190320072741_jeitn.thumb.400_0.jpg已下载
+2020-08-18 19:39:59,758 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:39:59,759 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201712/14/20171214170310_nmd8Y.thumb.400_0.jpeg
+2020-08-18 19:39:59,770 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:39:59,846 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201712/14/20171214170310_nmd8Y.thumb.400_0.jpeg HTTP/1.1" 200 38526
+2020-08-18 19:39:59,857 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:39:59,880 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:39:59,880 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:39:59,880 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20171214170310_nmd8Y.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201712/14/20171214170310_nmd8Y.thumb.400_0.jpeg']
+2020-08-18 19:39:59,881 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20171214170310_nmd8Y.thumb.400_0.jpeg已下载
+2020-08-18 19:39:59,882 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:39:59,882 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201804/15/20180415175933_mLntF.thumb.400_0.jpeg
+2020-08-18 19:39:59,884 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:39:59,947 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201804/15/20180415175933_mLntF.thumb.400_0.jpeg HTTP/1.1" 200 18376
+2020-08-18 19:39:59,950 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:39:59,958 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:39:59,958 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:39:59,959 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20180415175933_mLntF.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201804/15/20180415175933_mLntF.thumb.400_0.jpeg']
+2020-08-18 19:39:59,960 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20180415175933_mLntF.thumb.400_0.jpeg已下载
+2020-08-18 19:39:59,960 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:39:59,960 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201703/11/20170311004242_Qk85h.thumb.400_0.jpeg
+2020-08-18 19:39:59,964 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:00,017 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201703/11/20170311004242_Qk85h.thumb.400_0.jpeg HTTP/1.1" 200 84212
+2020-08-18 19:40:00,027 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:00,053 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:00,054 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:00,054 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20170311004242_Qk85h.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201703/11/20170311004242_Qk85h.thumb.400_0.jpeg']
+2020-08-18 19:40:00,055 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20170311004242_Qk85h.thumb.400_0.jpeg已下载
+2020-08-18 19:40:00,056 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:00,057 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201805/02/20180502113133_Ykkxf.thumb.400_0.jpeg
+2020-08-18 19:40:00,061 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:00,149 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201805/02/20180502113133_Ykkxf.thumb.400_0.jpeg HTTP/1.1" 200 44939
+2020-08-18 19:40:00,158 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:00,199 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:00,205 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:00,210 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20180502113133_Ykkxf.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/02/20180502113133_Ykkxf.thumb.400_0.jpeg']
+2020-08-18 19:40:00,250 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20180502113133_Ykkxf.thumb.400_0.jpeg已下载
+2020-08-18 19:40:00,260 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:00,261 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201803/13/20180313113359_4vZGB.thumb.400_0.jpeg
+2020-08-18 19:40:00,303 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:00,463 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201803/13/20180313113359_4vZGB.thumb.400_0.jpeg HTTP/1.1" 200 47280
+2020-08-18 19:40:00,478 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:00,532 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:00,535 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:00,539 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20180313113359_4vZGB.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201803/13/20180313113359_4vZGB.thumb.400_0.jpeg']
+2020-08-18 19:40:00,582 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20180313113359_4vZGB.thumb.400_0.jpeg已下载
+2020-08-18 19:40:00,585 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:00,592 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201606/26/20160626001058_ufahi.thumb.400_0.jpeg
+2020-08-18 19:40:00,624 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:00,925 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201606/26/20160626001058_ufahi.thumb.400_0.jpeg HTTP/1.1" 200 67385
+2020-08-18 19:40:00,932 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:00,939 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:00,939 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:00,939 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20160626001058_ufahi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201606/26/20160626001058_ufahi.thumb.400_0.jpeg']
+2020-08-18 19:40:00,940 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20160626001058_ufahi.thumb.400_0.jpeg已下载
+2020-08-18 19:40:00,940 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:00,940 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201801/09/20180109234729_FncRi.thumb.400_0.jpeg
+2020-08-18 19:40:00,944 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:01,018 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201801/09/20180109234729_FncRi.thumb.400_0.jpeg HTTP/1.1" 200 56120
+2020-08-18 19:40:01,028 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:01,048 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:01,048 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:01,048 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20180109234729_FncRi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234729_FncRi.thumb.400_0.jpeg']
+2020-08-18 19:40:01,050 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20180109234729_FncRi.thumb.400_0.jpeg已下载
+2020-08-18 19:40:01,050 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:01,050 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201805/28/20180528234313_VfPCu.thumb.400_0.jpeg
+2020-08-18 19:40:01,053 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:01,121 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201805/28/20180528234313_VfPCu.thumb.400_0.jpeg HTTP/1.1" 200 55900
+2020-08-18 19:40:01,135 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:01,147 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:01,147 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:01,147 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20180528234313_VfPCu.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/28/20180528234313_VfPCu.thumb.400_0.jpeg']
+2020-08-18 19:40:01,148 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20180528234313_VfPCu.thumb.400_0.jpeg已下载
+2020-08-18 19:40:01,149 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:01,149 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201801/09/20180109234526_WSksK.thumb.400_0.jpeg
+2020-08-18 19:40:01,153 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:01,342 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201801/09/20180109234526_WSksK.thumb.400_0.jpeg HTTP/1.1" 200 54208
+2020-08-18 19:40:01,353 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:01,390 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:01,390 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:01,391 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20180109234526_WSksK.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234526_WSksK.thumb.400_0.jpeg']
+2020-08-18 19:40:01,392 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20180109234526_WSksK.thumb.400_0.jpeg已下载
+2020-08-18 19:40:01,394 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:01,394 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201807/23/20180723181826_rRhXV.thumb.400_0.jpeg
+2020-08-18 19:40:01,399 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:01,542 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201807/23/20180723181826_rRhXV.thumb.400_0.jpeg HTTP/1.1" 200 54000
+2020-08-18 19:40:01,550 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:01,591 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:01,592 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:01,592 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20180723181826_rRhXV.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201807/23/20180723181826_rRhXV.thumb.400_0.jpeg']
+2020-08-18 19:40:01,593 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20180723181826_rRhXV.thumb.400_0.jpeg已下载
+2020-08-18 19:40:01,594 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:01,594 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/202003/20/20200320083255_SfrRc.thumb.400_0.jpeg
+2020-08-18 19:40:01,599 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:01,776 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/202003/20/20200320083255_SfrRc.thumb.400_0.jpeg HTTP/1.1" 200 147123
+2020-08-18 19:40:01,832 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:01,871 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:01,872 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:01,872 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20200320083255_SfrRc.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202003/20/20200320083255_SfrRc.thumb.400_0.jpeg']
+2020-08-18 19:40:01,875 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20200320083255_SfrRc.thumb.400_0.jpeg已下载
+2020-08-18 19:40:01,878 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:01,878 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/202004/11/20200411182544_shoeh.thumb.400_0.png
+2020-08-18 19:40:01,882 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:02,030 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/202004/11/20200411182544_shoeh.thumb.400_0.png HTTP/1.1" 200 492817
+2020-08-18 19:40:02,391 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:02,419 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:02,420 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:02,420 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20200411182544_shoeh.thumb.400_0.png', 'https://c-ssl.duitang.com/uploads/item/202004/11/20200411182544_shoeh.thumb.400_0.png']
+2020-08-18 19:40:02,421 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20200411182544_shoeh.thumb.400_0.png已下载
+2020-08-18 19:40:02,421 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:02,421 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/202002/17/20200217222643_hsjir.thumb.400_0.jpg
+2020-08-18 19:40:02,424 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:02,595 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/202002/17/20200217222643_hsjir.thumb.400_0.jpg HTTP/1.1" 200 132336
+2020-08-18 19:40:02,655 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:02,675 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:02,675 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:02,675 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20200217222643_hsjir.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202002/17/20200217222643_hsjir.thumb.400_0.jpg']
+2020-08-18 19:40:02,676 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20200217222643_hsjir.thumb.400_0.jpg已下载
+2020-08-18 19:40:02,676 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:02,676 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/202007/24/20200724084343_jhkou.thumb.400_0.jpg
+2020-08-18 19:40:02,679 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:02,852 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/202007/24/20200724084343_jhkou.thumb.400_0.jpg HTTP/1.1" 200 60875
+2020-08-18 19:40:02,859 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:02,880 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:02,881 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:02,881 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20200724084343_jhkou.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/24/20200724084343_jhkou.thumb.400_0.jpg']
+2020-08-18 19:40:02,882 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20200724084343_jhkou.thumb.400_0.jpg已下载
+2020-08-18 19:40:02,882 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:02,882 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/202007/18/20200718093913_glsyy.thumb.400_0.jpg
+2020-08-18 19:40:02,887 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:03,039 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/202007/18/20200718093913_glsyy.thumb.400_0.jpg HTTP/1.1" 200 33779
+2020-08-18 19:40:03,044 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:03,061 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:03,061 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:03,062 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20200718093913_glsyy.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/18/20200718093913_glsyy.thumb.400_0.jpg']
+2020-08-18 19:40:03,063 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20200718093913_glsyy.thumb.400_0.jpg已下载
+2020-08-18 19:40:03,064 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:03,064 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_fcqrn.thumb.400_0.jpg
+2020-08-18 19:40:03,068 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:03,223 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/202007/21/20200721180849_fcqrn.thumb.400_0.jpg HTTP/1.1" 200 72377
+2020-08-18 19:40:03,261 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:03,283 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:03,283 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:03,284 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20200721180849_fcqrn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_fcqrn.thumb.400_0.jpg']
+2020-08-18 19:40:03,285 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20200721180849_fcqrn.thumb.400_0.jpg已下载
+2020-08-18 19:40:03,285 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:03,286 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/202007/21/20200721180850_zpigm.thumb.400_0.webp
+2020-08-18 19:40:03,289 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:03,438 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/202007/21/20200721180850_zpigm.thumb.400_0.webp HTTP/1.1" 200 57024
+2020-08-18 19:40:03,451 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:03,495 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:03,495 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:03,495 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20200721180850_zpigmthumb400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180850_zpigm.thumb.400_0.webp']
+2020-08-18 19:40:03,496 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20200721180850_zpigmthumb400_0.jpeg已下载
+2020-08-18 19:40:03,496 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:03,497 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_cpltk.thumb.400_0.jpg
+2020-08-18 19:40:03,501 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:03,634 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/202007/21/20200721180849_cpltk.thumb.400_0.jpg HTTP/1.1" 200 58162
+2020-08-18 19:40:03,671 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:03,706 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:03,707 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:03,707 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20200721180849_cpltk.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_cpltk.thumb.400_0.jpg']
+2020-08-18 19:40:03,708 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20200721180849_cpltk.thumb.400_0.jpg已下载
+2020-08-18 19:40:03,708 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:03,708 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201911/29/20191129221141_dswbh.thumb.400_0.jpg
+2020-08-18 19:40:03,713 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:03,859 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201911/29/20191129221141_dswbh.thumb.400_0.jpg HTTP/1.1" 200 60294
+2020-08-18 19:40:03,888 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:03,923 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:03,923 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:03,923 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20191129221141_dswbh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201911/29/20191129221141_dswbh.thumb.400_0.jpg']
+2020-08-18 19:40:03,924 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20191129221141_dswbh.thumb.400_0.jpg已下载
+2020-08-18 19:40:03,925 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:03,925 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/202003/14/20200314234038_hrflg.thumb.400_0.jpg
+2020-08-18 19:40:03,929 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:04,084 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/202003/14/20200314234038_hrflg.thumb.400_0.jpg HTTP/1.1" 200 57002
+2020-08-18 19:40:04,094 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:04,143 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:04,143 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:04,143 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20200314234038_hrflg.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202003/14/20200314234038_hrflg.thumb.400_0.jpg']
+2020-08-18 19:40:04,145 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20200314234038_hrflg.thumb.400_0.jpg已下载
+2020-08-18 19:40:04,145 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:04,145 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/202006/13/20200613194123_uaqpy.thumb.400_0.jpeg
+2020-08-18 19:40:04,150 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:04,292 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/202006/13/20200613194123_uaqpy.thumb.400_0.jpeg HTTP/1.1" 200 100617
+2020-08-18 19:40:04,340 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:04,400 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:04,400 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:04,400 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20200613194123_uaqpy.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202006/13/20200613194123_uaqpy.thumb.400_0.jpeg']
+2020-08-18 19:40:04,404 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20200613194123_uaqpy.thumb.400_0.jpeg已下载
+2020-08-18 19:40:04,405 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:04,405 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201903/02/20190302222344_dqcep.thumb.400_0.jpg
+2020-08-18 19:40:04,415 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:04,562 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201903/02/20190302222344_dqcep.thumb.400_0.jpg HTTP/1.1" 200 74289
+2020-08-18 19:40:04,595 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:04,612 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:04,612 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:04,612 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20190302222344_dqcep.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/02/20190302222344_dqcep.thumb.400_0.jpg']
+2020-08-18 19:40:04,613 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20190302222344_dqcep.thumb.400_0.jpg已下载
+2020-08-18 19:40:04,614 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:04,614 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:151] - INFO: https://c-ssl.duitang.com/uploads/item/201906/18/20190618203048_epddh.thumb.400_0.jpg
+2020-08-18 19:40:04,618 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:959] - DEBUG: Starting new HTTPS connection (1): c-ssl.duitang.com:443
+2020-08-18 19:40:04,781 - C:\Users\24405\Anaconda3\lib\site-packages\urllib3\connectionpool.py[line:437] - DEBUG: https://c-ssl.duitang.com:443 "GET /uploads/item/201906/18/20190618203048_epddh.thumb.400_0.jpg HTTP/1.1" 200 81196
+2020-08-18 19:40:04,828 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:293] - DEBUG: 开始保存图片信息！
+2020-08-18 19:40:04,867 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:334] - INFO: 追加写入数据成功！
+2020-08-18 19:40:04,867 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:338] - DEBUG: 保存图片信息执行完毕！
+2020-08-18 19:40:04,867 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:159] - INFO: 缓存的图片信息列表：['发饰 扇子', '20190618203048_epddh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201906/18/20190618203048_epddh.thumb.400_0.jpg']
+2020-08-18 19:40:04,870 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:170] - INFO: 20190618203048_epddh.thumb.400_0.jpg已下载
+2020-08-18 19:40:04,870 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:173] - DEBUG: 保存图片成功！
+2020-08-18 19:40:04,871 - C:/Users/24405/Desktop/spider/duitang/duitang.py[line:174] - INFO: 缓存的所有图片信息列表：[['发饰 扇子', '20190320072741_jeitn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg'], ['发饰 扇子', '20171214170310_nmd8Y.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201712/14/20171214170310_nmd8Y.thumb.400_0.jpeg'], ['发饰 扇子', '20180415175933_mLntF.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201804/15/20180415175933_mLntF.thumb.400_0.jpeg'], ['发饰 扇子', '20170311004242_Qk85h.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201703/11/20170311004242_Qk85h.thumb.400_0.jpeg'], ['发饰 扇子', '20180502113133_Ykkxf.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/02/20180502113133_Ykkxf.thumb.400_0.jpeg'], ['发饰 扇子', '20180313113359_4vZGB.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201803/13/20180313113359_4vZGB.thumb.400_0.jpeg'], ['发饰 扇子', '20160626001058_ufahi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201606/26/20160626001058_ufahi.thumb.400_0.jpeg'], ['发饰 扇子', '20180109234729_FncRi.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234729_FncRi.thumb.400_0.jpeg'], ['发饰 扇子', '20180528234313_VfPCu.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201805/28/20180528234313_VfPCu.thumb.400_0.jpeg'], ['发饰 扇子', '20180109234526_WSksK.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201801/09/20180109234526_WSksK.thumb.400_0.jpeg'], ['发饰 扇子', '20180723181826_rRhXV.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/201807/23/20180723181826_rRhXV.thumb.400_0.jpeg'], ['发饰 扇子', '20200320083255_SfrRc.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202003/20/20200320083255_SfrRc.thumb.400_0.jpeg'], ['发饰 扇子', '20200411182544_shoeh.thumb.400_0.png', 'https://c-ssl.duitang.com/uploads/item/202004/11/20200411182544_shoeh.thumb.400_0.png'], ['发饰 扇子', '20200217222643_hsjir.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202002/17/20200217222643_hsjir.thumb.400_0.jpg'], ['发饰 扇子', '20200724084343_jhkou.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/24/20200724084343_jhkou.thumb.400_0.jpg'], ['发饰 扇子', '20200718093913_glsyy.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/18/20200718093913_glsyy.thumb.400_0.jpg'], ['发饰 扇子', '20200721180849_fcqrn.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_fcqrn.thumb.400_0.jpg'], ['发饰 扇子', '20200721180850_zpigmthumb400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180850_zpigm.thumb.400_0.webp'], ['发饰 扇子', '20200721180849_cpltk.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202007/21/20200721180849_cpltk.thumb.400_0.jpg'], ['发饰 扇子', '20191129221141_dswbh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201911/29/20191129221141_dswbh.thumb.400_0.jpg'], ['发饰 扇子', '20200314234038_hrflg.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/202003/14/20200314234038_hrflg.thumb.400_0.jpg'], ['发饰 扇子', '20200613194123_uaqpy.thumb.400_0.jpeg', 'https://c-ssl.duitang.com/uploads/item/202006/13/20200613194123_uaqpy.thumb.400_0.jpeg'], ['发饰 扇子', '20190302222344_dqcep.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201903/02/20190302222344_dqcep.thumb.400_0.jpg'], ['发饰 扇子', '20190618203048_epddh.thumb.400_0.jpg', 'https://c-ssl.duitang.com/uploads/item/201906/18/20190618203048_epddh.thumb.400_0.jpg']]
+2020-08-18 19:40:04,872 - C:\Users\24405\Desktop\spider\duitang\database.py[line:26] - DEBUG: 表格操作数据库连接开始执行！
+2020-08-18 19:40:06,899 - C:\Users\24405\Desktop\spider\duitang\database.py[line:31] - INFO: 表格操作数据库连接成功！
+2020-08-18 19:40:06,899 - C:\Users\24405\Desktop\spider\duitang\database.py[line:66] - DEBUG: 创建表格操作开始执行！
+2020-08-18 19:40:06,900 - C:\Users\24405\Desktop\spider\duitang\database.py[line:69] - INFO: 创建表格操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:06,959 - C:\Users\24405\Desktop\spider\duitang\database.py[line:79] - DEBUG: 若表格已存在则删除表格！
+2020-08-18 19:40:07,057 - C:\Users\24405\Desktop\spider\duitang\database.py[line:90] - INFO: 创建表格操作执行结果为：0
+2020-08-18 19:40:07,057 - C:\Users\24405\Desktop\spider\duitang\database.py[line:98] - DEBUG: 创建表格操作执行完毕！
+2020-08-18 19:40:07,058 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,058 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,060 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,120 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,121 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,121 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,122 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,169 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,169 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,170 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,172 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,221 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,221 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,221 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,222 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,257 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,257 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,257 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,258 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,298 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,299 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,299 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,299 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,334 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,335 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,335 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,335 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,377 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,377 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,377 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,378 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,412 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,412 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,412 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,413 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,453 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,454 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,454 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,455 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,490 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,490 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,490 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,491 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,531 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,532 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,532 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,533 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,568 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,569 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,569 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,570 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,609 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,609 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,609 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,610 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,645 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,645 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,645 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,646 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,686 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,687 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,687 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,687 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,723 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,723 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,724 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,725 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,764 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,765 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,765 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,765 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,801 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,802 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,802 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,804 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,842 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,843 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,843 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,844 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,889 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,889 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,890 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,890 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,931 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,931 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,931 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,931 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:07,978 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:07,979 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:07,979 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:07,980 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:08,044 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:08,044 - C:\Users\24405\Desktop\spider\duitang\database.py[line:110] - DEBUG: 插入操作开始执行！
+2020-08-18 19:40:08,044 - C:\Users\24405\Desktop\spider\duitang\database.py[line:114] - INFO: 插入操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:08,045 - C:\Users\24405\Desktop\spider\duitang\database.py[line:124] - INFO: 插入操作执行结果为：1
+2020-08-18 19:40:08,097 - C:\Users\24405\Desktop\spider\duitang\database.py[line:132] - DEBUG: 插入操作执行完毕！
+2020-08-18 19:40:08,097 - C:\Users\24405\Desktop\spider\duitang\database.py[line:144] - DEBUG: 查询操作开始执行！
+2020-08-18 19:40:08,097 - C:\Users\24405\Desktop\spider\duitang\database.py[line:147] - INFO: 查询操作数据库连接对象：<pymysql.connections.Connection object at 0x000001C16240AEC8>
+2020-08-18 19:40:08,103 - C:\Users\24405\Desktop\spider\duitang\database.py[line:158] - INFO: 查询操作执行结果为：1 发饰 扇子 20190320072741_jeitn.thumb.400_0.jpg https://c-ssl.duitang.com/uploads/item/201903/20/20190320072741_jeitn.thumb.400_0.jpg
+2020-08-18 19:40:08,103 - C:\Users\24405\Desktop\spider\duitang\database.py[line:168] - DEBUG: 查询操作执行完毕！
+2020-08-18 19:40:08,103 - C:\Users\24405\Desktop\spider\duitang\database.py[line:48] - DEBUG: 关闭表格操作数据库连接开始执行！
+2020-08-18 19:40:08,105 - C:\Users\24405\Desktop\spider\duitang\database.py[line:51] - INFO: 关闭表格操作数据库连接成功！
+2020-08-18 19:40:08,105 - C:\Users\24405\Desktop\spider\duitang\database.py[line:55] - DEBUG: 关闭表格操作数据库连接执行完毕！

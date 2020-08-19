@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>网络爬虫</title>
+    {% load static %}
+    <link href="{% static 'appjia/css/style.css' %}" rel="stylesheet" type="text/css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script src="https://use.fontawesome.com/di341f9b7a.js"></script>
+
+</head>
+
+<body>
+{#    侧边导航栏#}
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+        <header><i class="fas fa-align-center"></i>导航栏</header>
+        <ul>
+            <li><a href="#"><i class="fas fa-link"></i>Homepage</a></li>
+            <li><a href="#"><i class="fas fa-link"></i>To zicao</a></li>
+            <li><a href="#"><i class="fas fa-link"></i>To lrztang</a></li>
+            <li><a href="#"><i class="fas fa-link"></i>To bingzhu</a></li>
+            <li><a href="#"><i class="fas fa-link"></i>To zqshao</a></li>
+        </ul>
+    </div>
+
+
+
+
+{#顶部导航栏#}
+    <div class="navbar">
+    <a href="#" class="logo">如来佛组</a>
+    <ul class="nav">
+        <li><a href="#home">个人介绍</a></li>
+        <li><a href="#about">热歌榜Top3</a></li>
+        <li><a href="#portfolio">爬虫列表</a></li>
+{#        <li><a href="#services">Services</a></li>#}
+{#        <li><a href="#contact">Contact</a></li>#}
+    </ul>
+    </div>
+
+    <div class="banner-area" id="home">
+        <div class="box">
+        {#个人介绍#}
+        {% load static %}
+            <img src="{% static 'appjia/css/geren1.jpg' %}" alt="" class="box-img">
+            <h1>贾欣融</h1>
+            <h5>2016级本科毕业生</h5>
+            <p> 学校：西北工业大学</p>
+            <p> 专业：信息工程</p>
+            <p> QQ：xxxxxxxx</p>
+            <p> Email：xxxxxxxx</p>
+            <p> phone：xxxxxxxx</p>
+        </div>
+
+        <div class="box2">
+        {#个人介绍#}
+        {% load static %}
+            <img src="{% static 'appjia/css/wangyiyunlogo.png' %}" alt="" class="box-img">
+
+            <h1>爬虫项目介绍</h1>
+
+            <h5>网易云音乐热歌榜</h5>
+
+            <p>排名前200首歌曲信息</p>
+
+            <p> 排名、歌曲</p>
+
+            <p> 歌手、专辑</p>
+
+            <p> 歌曲链接、歌手链接、专辑链接</p>
+
+            <p> 歌曲封面链接</p>
+
+        </div>
+
+    </div>
+
+    <div class="about-area" id="about">
+        <div class="container">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+{#                        <h2>歌曲：天外来物</h2>#}
+{#                        <p>Artist：薛之谦</p>#}
+{#                        <p>Album：天外来物</p>#}
+                        <p><a href="https://music.163.com/song?id=1463165983">歌曲：天外来物</a></p>
+                        <p><a href="https://music.163.com/#/artist?id=5781">歌手：薛之谦</a></p>
+                        <p><a href="https://music.163.com/#/album?id=92510920">专辑：天外来物</a></p>
+{#                        <li>歌曲链接：https://music.163.com/song?id=1463165983</li>#}
+{#                        <li>歌手主页：https://music.163.com/#/artist?id=5781</li>#}
+{#                        <li>专辑链接：https://music.163.com/#/album?id=92510920</li>#}
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="first">
+                    <h2>01</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+{#                        <h2>歌曲：爸爸妈妈</h2>#}
+{#                        <p>Artist：李荣浩</p>#}
+{#                        <p>Album：有理想</p>#}
+                        <p><a href="https://music.163.com/song?id=407450223">歌曲：爸爸妈妈</a></p>
+                        <p><a href="https://music.163.com/#/artist?id=4292">歌手：李荣浩</a></p>
+                        <p><a href="https://music.163.com/#/album?id=34567265">专辑：有理想</a></p>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="second">
+                    <h2>02</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+{#                        <h2>歌曲：海底</h2>#}
+{#                        <p>Artist：一支榴莲</p>#}
+{#                        <p>Album：《独》</p>#}
+                        <p><a href="https://music.163.com/song?id=1426649237">歌曲：海底</a></p>
+                        <p><a href="https://music.163.com/#/artist?id=33694141">歌手：一支榴莲</a></p>
+                        <p><a href="https://music.163.com/#/album?id=85613223">专辑：《独》</a></p>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="third">
+                    <h2>03</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="port-area" id="portfolio">
+        <div class="text-part">
+        <h1></h1>
+        <h3 align="center"></h3>
+        <table class="zebra">
+        <caption> 网易云音乐热歌榜爬虫</caption>
+        <tbody>
+           <tr>
+           <td width="50px">排名</td>
+               <td width="100px">歌名</td>
+               <td width="150px">歌曲链接</td>
+               <td width="150px">歌手名字</td>
+               <td width="150px">歌手主页</td>
+               <td width="150px">专辑名字</td>
+               <td width="150px">专辑链接</td>
+               <td width="150px">歌曲封面</td>
+           </tr>
+        {% for element in padata %}
+         <tr>
+         <td>{{ element.0 }}</td><td>{{ element.1 }}</td>
+             <td><a href= {{ element.2}}>{{ element.2}}</a></td>
+             <td>{{ element.3 }}</td>
+             <td><a href= {{ element.4}}>{{ element.4}}</a></td>
+             <td>{{ element.5 }}</td>
+             <td><a href= {{ element.6}}>{{ element.6}}</a></td>
+             <td><a href= {{ element.7}}>{{ element.7}}</a></td>
+        {% endfor %}
+           </tr>
+        </tbody>
+        </table>
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

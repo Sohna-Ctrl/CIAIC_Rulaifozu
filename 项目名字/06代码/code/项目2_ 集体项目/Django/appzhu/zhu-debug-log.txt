@@ -924,3 +924,11 @@
 08/18/2020 10:10:25 AM - DEBUG - https://www.sephora.cn:443 "GET /hot/?k=%E7%95%85%E9%94%80%E6%A6%9C%E5%8D%95&hasInventory=0&sortField=1&sortMode=desc&currentPage=3&filters= HTTP/1.1" 200 None
 08/18/2020 10:10:25 AM - DEBUG - Starting new HTTPS connection (1): www.sephora.cn:443
 08/18/2020 10:10:25 AM - DEBUG - https://www.sephora.cn:443 "GET /hot/?k=%E7%95%85%E9%94%80%E6%A6%9C%E5%8D%95&hasInventory=0&sortField=1&sortMode=desc&currentPage=4&filters= HTTP/1.1" 200 None
+08/18/2020 17:33:44 PM - DEBUG - Starting new HTTPS connection (1): www.sephora.cn:443
+08/18/2020 17:33:44 PM - DEBUG - https://www.sephora.cn:443 "GET /hot/?k=%E7%95%85%E9%94%80%E6%A6%9C%E5%8D%95&hasInventory=0&sortField=1&sortMode=desc&currentPage=1&filters= HTTP/1.1" 200 None
+08/18/2020 17:33:44 PM - DEBUG - Starting new HTTPS connection (1): www.sephora.cn:443
+08/18/2020 17:33:45 PM - DEBUG - https://www.sephora.cn:443 "GET /hot/?k=%E7%95%85%E9%94%80%E6%A6%9C%E5%8D%95&hasInventory=0&sortField=1&sortMode=desc&currentPage=2&filters= HTTP/1.1" 200 None
+08/18/2020 17:33:45 PM - DEBUG - Starting new HTTPS connection (1): www.sephora.cn:443
+08/18/2020 17:33:45 PM - DEBUG - https://www.sephora.cn:443 "GET /hot/?k=%E7%95%85%E9%94%80%E6%A6%9C%E5%8D%95&hasInventory=0&sortField=1&sortMode=desc&currentPage=3&filters= HTTP/1.1" 200 None
+08/18/2020 17:33:45 PM - DEBUG - Starting new HTTPS connection (1): www.sephora.cn:443
+08/18/2020 17:33:45 PM - DEBUG - https://www.sephora.cn:443 "GET /hot/?k=%E7%95%85%E9%94%80%E6%A6%9C%E5%8D%95&hasInventory=0&sortField=1&sortMode=desc&currentPage=4&filters= HTTP/1.1" 200 None
